@@ -1,0 +1,1651 @@
+ RocketSim_sfun
+
+ Timestamp is 61aecd9e (Mon Dec  6 21:57:34 2021)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00011a00H .text$mn                CODE
+ 0001:00011a00 00000036H .text$mn$00             CODE
+ 0001:00011a36 00000092H .text$x                 CODE
+ 0002:00000000 000004b0H .idata$5                DATA
+ 0002:000004b0 00000028H .00cfg                  DATA
+ 0002:000004d8 00000008H .CRT$XCA                DATA
+ 0002:000004e0 00000008H .CRT$XCZ                DATA
+ 0002:000004e8 00000008H .CRT$XIA                DATA
+ 0002:000004f0 00000008H .CRT$XIZ                DATA
+ 0002:000004f8 00000008H .CRT$XPA                DATA
+ 0002:00000500 00000008H .CRT$XPZ                DATA
+ 0002:00000508 00000008H .CRT$XTA                DATA
+ 0002:00000510 00000010H .CRT$XTZ                DATA
+ 0002:00000518 00000000H .gehcont$y              DATA
+ 0002:00000518 00000000H .gfids$y                DATA
+ 0002:00000520 00000de0H .rdata                  DATA
+ 0002:00001300 00000008H .rdata$CastGuardVftablesA DATA
+ 0002:00001308 00000008H .rdata$CastGuardVftablesC DATA
+ 0002:00001310 000001e4H .rdata$voltmd           DATA
+ 0002:000014f4 0000027cH .rdata$zzzdbg           DATA
+ 0002:00001770 00000008H .rtc$IAA                DATA
+ 0002:00001778 00000008H .rtc$IZZ                DATA
+ 0002:00001780 00000008H .rtc$TAA                DATA
+ 0002:00001788 00000008H .rtc$TZZ                DATA
+ 0002:00001790 000009a0H .xdata                  DATA
+ 0002:00002130 00000078H .edata                  DATA
+ 0002:000021a8 00000104H .idata$2                DATA
+ 0002:000022ac 00000014H .idata$3                DATA
+ 0002:000022c0 000004b0H .idata$4                DATA
+ 0002:00002770 00000d20H .idata$6                DATA
+ 0003:00000000 000043a0H .data                   DATA
+ 0003:000043a0 00000c90H .bss                    DATA
+ 0004:00000000 00000b70H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       RocketSim_initializer      0000000180001000 f   RocketSim_sfun.obj
+ 0001:00000010       RocketSim_terminator       0000000180001010 f   RocketSim_sfun.obj
+ 0001:00000020       load_RocketSim_optimization_info 0000000180001020 f   RocketSim_sfun.obj
+ 0001:000000d0       unload_RocketSim_optimization_info 00000001800010d0 f   RocketSim_sfun.obj
+ 0001:00000100       sf_RocketSim_method_dispatcher 0000000180001100 f   RocketSim_sfun.obj
+ 0001:00000150       sf_RocketSim_process_check_sum_call 0000000180001150 f   RocketSim_sfun.obj
+ 0001:00000640       sf_RocketSim_get_eml_resolved_functions_info 0000000180001640 f   RocketSim_sfun.obj
+ 0001:00000820       sf_RocketSim_third_party_uses_info 0000000180001820 f   RocketSim_sfun.obj
+ 0001:000009f0       sf_RocketSim_jit_fallback_info 00000001800019f0 f   RocketSim_sfun.obj
+ 0001:00000bc0       sf_RocketSim_get_post_codegen_info 0000000180001bc0 f   RocketSim_sfun.obj
+ 0001:00000da0       sf_RocketSim_updateBuildInfo_args_info 0000000180001da0 f   RocketSim_sfun.obj
+ 0001:00000f70       RocketSim_register_exported_symbols 0000000180001f70 f   RocketSim_sfun.obj
+ 0001:00000fc0       sf_c4_RocketSim_get_eml_resolved_functions_info 0000000180001fc0 f   c4_RocketSim.obj
+ 0001:00001040       sf_c4_RocketSim_get_check_sum 0000000180002040 f   c4_RocketSim.obj
+ 0001:00001110       c4_RocketSim_method_dispatcher 0000000180002110 f   c4_RocketSim.obj
+ 0001:00005940       sf_c4_RocketSim_third_party_uses_info 0000000180006940 f   c4_RocketSim.obj
+ 0001:00005970       sf_c4_RocketSim_jit_fallback_info 0000000180006970 f   c4_RocketSim.obj
+ 0001:00005b00       sf_c4_RocketSim_updateBuildInfo_args_info 0000000180006b00 f   c4_RocketSim.obj
+ 0001:00005ea0       sf_c4_RocketSim_get_post_codegen_info 0000000180006ea0 f   c4_RocketSim.obj
+ 0001:00006460       mexFunction                0000000180007460 f   RocketSim_sfun_registry.obj
+ 0001:00008c40       _ssSetInputPortDirectFeedThroughFcn 0000000180009c40 f   RocketSim_sfun_registry.obj
+ 0001:00008db0       _ssSetRWorkValueFcn        0000000180009db0 f   RocketSim_sfun_registry.obj
+ 0001:00008e30       _ssGetRWorkValueFcn        0000000180009e30 f   RocketSim_sfun_registry.obj
+ 0001:00008ea0       _ssSetIWorkValueFcn        0000000180009ea0 f   RocketSim_sfun_registry.obj
+ 0001:00008f20       _ssGetIWorkValueFcn        0000000180009f20 f   RocketSim_sfun_registry.obj
+ 0001:00008f90       _ssSetPWorkValueFcn        0000000180009f90 f   RocketSim_sfun_registry.obj
+ 0001:00009010       _ssGetPWorkValueFcn        000000018000a010 f   RocketSim_sfun_registry.obj
+ 0001:00009080       _ssGetInputPortSignalFcn   000000018000a080 f   RocketSim_sfun_registry.obj
+ 0001:00009410       _ssGetInputPortBufferDstPortFcn 000000018000a410 f   RocketSim_sfun_registry.obj
+ 0001:00009490       _ssGetInputPortSignalPtrsFcn 000000018000a490 f   RocketSim_sfun_registry.obj
+ 0001:00009820       ssGetParameterTuningCompliance 000000018000a820 f   RocketSim_sfun_registry.obj
+ 0001:00009890       ssGetDTypeIdFromMxArray    000000018000a890 f   RocketSim_sfun_registry.obj
+ 0001:000099b0       ssWriteRTWMx2dMatParam     000000018000a9b0 f   RocketSim_sfun_registry.obj
+ 0001:00009a40       ssWriteRTWMxVectParam      000000018000aa40 f   RocketSim_sfun_registry.obj
+ 0001:00009ac0       ssWriteRTWParameters       000000018000aac0 f   RocketSim_sfun_registry.obj
+ 0001:0000a080       ssWriteRTWParamSettings    000000018000b080 f   RocketSim_sfun_registry.obj
+ 0001:0000a770       ssWriteRTWStr              000000018000b770 f   RocketSim_sfun_registry.obj
+ 0001:0000a7d0       ssWriteRTWWorkVect         000000018000b7d0 f   RocketSim_sfun_registry.obj
+ 0001:0000ad30       ssWarning                  000000018000bd30 f   RocketSim_sfun_registry.obj
+ 0001:0000ae20       ssWriteRTWNameValuePair    000000018000be20 f   RocketSim_sfun_registry.obj
+ 0001:0000b320       _ssSetInputPortMatrixDimensions 000000018000c320 f   RocketSim_sfun_registry.obj
+ 0001:0000b440       _ssSetOutputPortMatrixDimensions 000000018000c440 f   RocketSim_sfun_registry.obj
+ 0001:0000b560       _ssSetInputPortVectorDimension 000000018000c560 f   RocketSim_sfun_registry.obj
+ 0001:0000b610       _ssSetOutputPortVectorDimension 000000018000c610 f   RocketSim_sfun_registry.obj
+ 0001:0000b6c0       ssIsRunTimeParamTunable    000000018000c6c0 f   RocketSim_sfun_registry.obj
+ 0001:0000b730       ssGetSFuncBlockHandle      000000018000c730 f   RocketSim_sfun_registry.obj
+ 0001:0000b7a0       _ssGetCurrentInputPortWidth 000000018000c7a0 f   RocketSim_sfun_registry.obj
+ 0001:0000b8e0       _ssGetCurrentOutputPortWidth 000000018000c8e0 f   RocketSim_sfun_registry.obj
+ 0001:0000ba20       _ssGetCallSystemNumFcnCallDestinations 000000018000ca20 f   RocketSim_sfun_registry.obj
+ 0001:0000ba90       ssGetIsZeroCrossControlDisabled 000000018000ca90 f   RocketSim_sfun_registry.obj
+ 0001:0000bb00       ssSetIsInputPortUsedForContZcSignal 000000018000cb00 f   RocketSim_sfun_registry.obj
+ 0001:0000bb70       ssSetZcSignalIsZcElementDisc 000000018000cb70 f   RocketSim_sfun_registry.obj
+ 0001:0000bc20       ssSetZcSignalName          000000018000cc20 f   RocketSim_sfun_registry.obj
+ 0001:0000bc90       ssSetZcSignalWidth         000000018000cc90 f   RocketSim_sfun_registry.obj
+ 0001:0000bd00       ssSetZcSignalZcEventType   000000018000cd00 f   RocketSim_sfun_registry.obj
+ 0001:0000bd70       ssSetZcSignalType          000000018000cd70 f   RocketSim_sfun_registry.obj
+ 0001:0000bde0       ssSetZcSignalZcTol         000000018000cde0 f   RocketSim_sfun_registry.obj
+ 0001:0000be50       ssSetZcSignalNeedsEventNotification 000000018000ce50 f   RocketSim_sfun_registry.obj
+ 0001:0000bec0       ssCreateAndAddZcSignalInfo 000000018000cec0 f   RocketSim_sfun_registry.obj
+ 0001:0000bf30       ssCloneAndAddZcSignalInfo  000000018000cf30 f   RocketSim_sfun_registry.obj
+ 0001:0000bfa0       ssGetNumZcSignals          000000018000cfa0 f   RocketSim_sfun_registry.obj
+ 0001:0000c010       ssGetZcSignalVector        000000018000d010 f   RocketSim_sfun_registry.obj
+ 0001:0000c080       ssGetZcSignalName          000000018000d080 f   RocketSim_sfun_registry.obj
+ 0001:0000c0f0       ssGetZcSignalWidth         000000018000d0f0 f   RocketSim_sfun_registry.obj
+ 0001:0000c160       ssGetZcSignalZcEventType   000000018000d160 f   RocketSim_sfun_registry.obj
+ 0001:0000c1d0       ssGetZcSignalZcEvents      000000018000d1d0 f   RocketSim_sfun_registry.obj
+ 0001:0000c240       ssGetZcSignalType          000000018000d240 f   RocketSim_sfun_registry.obj
+ 0001:0000c2b0       ssGetZcSignalZcTol         000000018000d2b0 f   RocketSim_sfun_registry.obj
+ 0001:0000c330       ssGetZcSignalNeedsEventNotification 000000018000d330 f   RocketSim_sfun_registry.obj
+ 0001:0000c3a0       ssGetZcSignalIsZcElementDisc 000000018000d3a0 f   RocketSim_sfun_registry.obj
+ 0001:0000c440       ssGetIsInputPortElementContinuous 000000018000d440 f   RocketSim_sfun_registry.obj
+ 0001:0000c4e0       _ssGetAbsTol               000000018000d4e0 f   RocketSim_sfun_registry.obj
+ 0001:0000c550       _ssSetStateAbsTol          000000018000d550 f   RocketSim_sfun_registry.obj
+ 0001:0000c630       _ssSetInputPortReusableFcn 000000018000d630 f   RocketSim_sfun_registry.obj
+ 0001:0000c730       _ssSetOutputPortReusableFcn 000000018000d730 f   RocketSim_sfun_registry.obj
+ 0001:0000c830       _ssSetSymbolicDimsSupport  000000018000d830 f   RocketSim_sfun_registry.obj
+ 0001:0000c8a0       _ssRegisterSymbolicDimsExpr 000000018000d8a0 f   RocketSim_sfun_registry.obj
+ 0001:0000c920       _ssRegisterSymbolicDims    000000018000d920 f   RocketSim_sfun_registry.obj
+ 0001:0000c9c0       _ssRegisterSymbolicDimsString 000000018000d9c0 f   RocketSim_sfun_registry.obj
+ 0001:0000ca40       _ssRegisterSymbolicDimsIntValue 000000018000da40 f   RocketSim_sfun_registry.obj
+ 0001:0000cab0       _ssRegisterSymbolicDimsPlus 000000018000dab0 f   RocketSim_sfun_registry.obj
+ 0001:0000cb30       _ssRegisterSymbolicDimsMinus 000000018000db30 f   RocketSim_sfun_registry.obj
+ 0001:0000cbb0       _ssRegisterSymbolicDimsMultiply 000000018000dbb0 f   RocketSim_sfun_registry.obj
+ 0001:0000cc30       _ssRegisterSymbolicDimsDivide 000000018000dc30 f   RocketSim_sfun_registry.obj
+ 0001:0000ccb0       _ssGetNumSymbolicDims      000000018000dcb0 f   RocketSim_sfun_registry.obj
+ 0001:0000cd20       _ssGetSymbolicDim          000000018000dd20 f   RocketSim_sfun_registry.obj
+ 0001:0000cda0       _ssSetInputPortSymbolicDimsId 000000018000dda0 f   RocketSim_sfun_registry.obj
+ 0001:0000ce10       _ssGetCompInputPortSymbolicDimsId 000000018000de10 f   RocketSim_sfun_registry.obj
+ 0001:0000ce80       _ssSetCompInputPortSymbolicDimsId 000000018000de80 f   RocketSim_sfun_registry.obj
+ 0001:0000cef0       _ssSetOutputPortSymbolicDimsId 000000018000def0 f   RocketSim_sfun_registry.obj
+ 0001:0000cf60       _ssGetCompOutputPortSymbolicDimsId 000000018000df60 f   RocketSim_sfun_registry.obj
+ 0001:0000cfd0       _ssSetCompOutputPortSymbolicDimsId 000000018000dfd0 f   RocketSim_sfun_registry.obj
+ 0001:0000d040       _ssSetCompDWorkSymbolicDimsId 000000018000e040 f   RocketSim_sfun_registry.obj
+ 0001:0000d0b0       sf_process_check_sum_call  000000018000e0b0 f   RocketSim_sfun_registry.obj
+ 0001:0000d100       sf_process_get_third_party_uses_info_call 000000018000e100 f   RocketSim_sfun_registry.obj
+ 0001:0000d330       sf_process_get_jit_fallback_info_call 000000018000e330 f   RocketSim_sfun_registry.obj
+ 0001:0000d560       sf_process_get_post_codegen_info_call 000000018000e560 f   RocketSim_sfun_registry.obj
+ 0001:0000d790       sf_process_get_updateBuildInfo_args_info_call 000000018000e790 f   RocketSim_sfun_registry.obj
+ 0001:0000d9c0       sf_process_get_eml_resolved_functions_info_call 000000018000e9c0 f   RocketSim_sfun_registry.obj
+ 0001:0000dbf0       sf_mex_unlock_call         000000018000ebf0 f   RocketSim_sfun_registry.obj
+ 0001:0000de10       sf_machine_global_initializer_called 000000018000ee10 f   RocketSim_sfun_registry.obj
+ 0001:0000de40       sf_machine_global_method_dispatcher 000000018000ee40 f   RocketSim_sfun_registry.obj
+ 0001:0000dea0       sf_machine_global_terminator 000000018000eea0 f   RocketSim_sfun_registry.obj
+ 0001:0000ded0       sf_register_machine_exported_symbols 000000018000eed0 f   RocketSim_sfun_registry.obj
+ 0001:0000def0       callCustomFcn              000000018000eef0 f   RocketSim_sfun_registry.obj
+ 0001:0000df00       sf_machine_global_initializer 000000018000ef00 f   RocketSim_sfun_registry.obj
+ 0001:0000df70       mdlGetSimState             000000018000ef70 f   RocketSim_sfun_registry.obj
+ 0001:0000dfb0       mdlSetSimState             000000018000efb0 f   RocketSim_sfun_registry.obj
+ 0001:0000e900       ProcessMexSfunctionEveryCall 000000018000f900 f   RocketSim_sfun_registry.obj
+ 0001:0000fa80       __local_stdio_printf_options 0000000180010a80 f i RocketSim_sfun_registry.obj
+ 0001:0000fa90       _vsnprintf_l               0000000180010a90 f i RocketSim_sfun_registry.obj
+ 0001:0000fb10       _vsprintf_l                0000000180010b10 f i RocketSim_sfun_registry.obj
+ 0001:0000fb60       sprintf                    0000000180010b60 f i RocketSim_sfun_registry.obj
+ 0001:0000fbb0       mexfilerequiredapiversion  0000000180010bb0 f   c_mexapi_version.obj
+ 0001:0000fbe0       getBitfieldFromFloat       0000000180010be0 f   half_type.obj
+ 0001:0000fc10       getFloatFromBitfield       0000000180010c10 f   half_type.obj
+ 0001:0000fc40       getBitfieldFromHalf        0000000180010c40 f   half_type.obj
+ 0001:0000fc60       getHalfFromBitfield        0000000180010c60 f   half_type.obj
+ 0001:0000fc90       halfToFloat                0000000180010c90 f   half_type.obj
+ 0001:0000fd40       halfToDouble               0000000180010d40 f   half_type.obj
+ 0001:0000fd70       floatToHalf                0000000180010d70 f   half_type.obj
+ 0001:0000ffd0       doubleToHalf               0000000180010fd0 f   half_type.obj
+ 0001:000102bd       sf_load_rtw_optimization_info 00000001800112bd f   sf_runtime:sf_runtime.dll
+ 0001:000102c3       sf_mex_decode              00000001800112c3 f   sf_runtime:sf_runtime.dll
+ 0001:000102c9       sf_init_ChartRunTimeInfo   00000001800112c9 f   sf_runtime:sf_runtime.dll
+ 0001:000102cf       sf_free_ChartRunTimeInfo   00000001800112cf f   sf_runtime:sf_runtime.dll
+ 0001:000102d5       sfrtGetEmlrtCtx            00000001800112d5 f   sf_runtime:sf_runtime.dll
+ 0001:000102db       sfrtGetCovrtInstance       00000001800112db f   sf_runtime:sf_runtime.dll
+ 0001:000102e1       sf_get_chart_instance_ptr  00000001800112e1 f   sf_runtime:sf_runtime.dll
+ 0001:000102e7       sim_mode_is_rtw_gen        00000001800112e7 f   sf_runtime:sf_runtime.dll
+ 0001:000102ed       sim_mode_is_external       00000001800112ed f   sf_runtime:sf_runtime.dll
+ 0001:000102f3       sf_clear_rtw_identifier    00000001800112f3 f   sf_runtime:sf_runtime.dll
+ 0001:000102f9       sf_get_time                00000001800112f9 f   sf_runtime:sf_runtime.dll
+ 0001:000102ff       sfDoAnimationWrapper       00000001800112ff f   sf_runtime:sf_runtime.dll
+ 0001:00010305       setDataBrowseFcn           0000000180011305 f   sf_runtime:sf_runtime.dll
+ 0001:0001030b       setLegacyDebuggerFlag      000000018001130b f   sf_runtime:sf_runtime.dll
+ 0001:00010311       setDebuggerFlag            0000000180011311 f   sf_runtime:sf_runtime.dll
+ 0001:00010317       sf_warn_if_symbolic_dimension_param_changed 0000000180011317 f   sf_runtime:sf_runtime.dll
+ 0001:0001031d       sf_set_work_widths         000000018001131d f   sf_runtime:sf_runtime.dll
+ 0001:00010323       sf_error_out_about_continuous_sample_time_with_persistent_vars 0000000180011323 f   sf_runtime:sf_runtime.dll
+ 0001:00010329       supportsLegacyBehaviorForPersistentVarInContinuousTime 0000000180011329 f   sf_runtime:sf_runtime.dll
+ 0001:0001032f       sfListenerCacheSimStruct   000000018001132f f   sf_runtime:sf_runtime.dll
+ 0001:00010335       sfListenerLightTerminate   0000000180011335 f   sf_runtime:sf_runtime.dll
+ 0001:0001033b       sfListenerInitializeRuntimeVars 000000018001133b f   sf_runtime:sf_runtime.dll
+ 0001:00010341       sf_mex_call                0000000180011341 f   sf_runtime:sf_runtime.dll
+ 0001:00010347       sf_mex_error_message       0000000180011347 f   sf_runtime:sf_runtime.dll
+ 0001:0001034d       sf_mex_create              000000018001134d f   sf_runtime:sf_runtime.dll
+ 0001:00010353       sf_mex_createcellmatrix    0000000180011353 f   sf_runtime:sf_runtime.dll
+ 0001:00010359       sf_mex_setcell             0000000180011359 f   sf_runtime:sf_runtime.dll
+ 0001:0001035f       sf_mex_getcell             000000018001135f f   sf_runtime:sf_runtime.dll
+ 0001:00010365       sf_mex_assign              0000000180011365 f   sf_runtime:sf_runtime.dll
+ 0001:0001036b       sf_mex_dup                 000000018001136b f   sf_runtime:sf_runtime.dll
+ 0001:00010371       sf_mex_destroy             0000000180011371 f   sf_runtime:sf_runtime.dll
+ 0001:00010377       sf_mex_import              0000000180011377 f   sf_runtime:sf_runtime.dll
+ 0001:0001037d       ssGetInputPortSignal_wrapper 000000018001137d f   sf_runtime:sf_runtime.dll
+ 0001:00010383       ssGetOutputPortSignal_wrapper 0000000180011383 f   sf_runtime:sf_runtime.dll
+ 0001:00010389       sf_data_saturate_error     0000000180011389 f   sf_runtime:sf_runtime.dll
+ 0001:0001038f       sf_get_ChartInfoStruct_CodeGen 000000018001138f f   sf_runtime:sf_runtime.dll
+ 0001:00010395       sf_get_hasSeparateUpdateOutputs 0000000180011395 f   sf_runtime:sf_runtime.dll
+ 0001:0001039b       callMdlMethodAndReportError 000000018001139b f   sf_runtime:sf_runtime.dll
+ 0001:000103a1       call_sf_machine_global_method_dispatcher 00000001800113a1 f   sf_runtime:sf_runtime.dll
+ 0001:000103a7       getRuntimeInstanceInfoAsVoid 00000001800113a7 f   sf_runtime:sf_runtime.dll
+ 0001:000103ad       sf_mex_error_direct_call   00000001800113ad f   sf_runtime:sf_runtime.dll
+ 0001:000103b3       sf_clear_error_manager_info 00000001800113b3 f   sf_runtime:sf_runtime.dll
+ 0001:000103b9       mxIsChar_800               00000001800113b9 f   libmx:libmx.dll
+ 0001:000103bf       mxGetScalar_800            00000001800113bf f   libmx:libmx.dll
+ 0001:000103c5       mxGetPr_800                00000001800113c5 f   libmx:libmx.dll
+ 0001:000103cb       mxDestroyArray_800         00000001800113cb f   libmx:libmx.dll
+ 0001:000103d1       mxCreateDoubleMatrix_800   00000001800113d1 f   libmx:libmx.dll
+ 0001:000103d7       mxGetString_800            00000001800113d7 f   libmx:libmx.dll
+ 0001:000103dd       mxDuplicateArray_800       00000001800113dd f   libmx:libmx.dll
+ 0001:000103e3       mxIsEmpty_800              00000001800113e3 f   libmx:libmx.dll
+ 0001:000103e9       mxSetField_800             00000001800113e9 f   libmx:libmx.dll
+ 0001:000103ef       mxCreateString_800         00000001800113ef f   libmx:libmx.dll
+ 0001:000103f5       mxCreateCellMatrix_800     00000001800113f5 f   libmx:libmx.dll
+ 0001:000103fb       mxCreateStructMatrix_800   00000001800113fb f   libmx:libmx.dll
+ 0001:00010401       mxGetNaN_800               0000000180011401 f   libmx:libmx.dll
+ 0001:00010407       mxCalloc_800               0000000180011407 f   libmx:libmx.dll
+ 0001:0001040d       mxGetM_800                 000000018001140d f   libmx:libmx.dll
+ 0001:00010413       mxGetClassID_800           0000000180011413 f   libmx:libmx.dll
+ 0001:00010419       mxIsNumeric_800            0000000180011419 f   libmx:libmx.dll
+ 0001:0001041f       mxIsComplex_800            000000018001141f f   libmx:libmx.dll
+ 0001:00010425       mxGetN_800                 0000000180011425 f   libmx:libmx.dll
+ 0001:0001042b       mxCreateDoubleScalar_800   000000018001142b f   libmx:libmx.dll
+ 0001:00010431       mexMakeArrayPersistent_800 0000000180011431 f   libmex:libmex.dll
+ 0001:00010437       mexErrMsgTxt_800           0000000180011437 f   libmex:libmex.dll
+ 0001:0001043d       mexWarnMsgTxt_800          000000018001143d f   libmex:libmex.dll
+ 0001:00010443       mexCallMATLAB_800          0000000180011443 f   libmex:libmex.dll
+ 0001:00010449       mexLock_800                0000000180011449 f   libmex:libmex.dll
+ 0001:0001044f       mexUnlock_800              000000018001144f f   libmex:libmex.dll
+ 0001:00010455       mexIsLocked_800            0000000180011455 f   libmex:libmex.dll
+ 0001:0001045b       utMalloc                   000000018001145b f   libut:libut.dll
+ 0001:00010461       utFree                     0000000180011461 f   libut:libut.dll
+ 0001:00010467       muDoubleScalarCeil         0000000180011467 f   libmwmathutil:libmwmathutil.dll
+ 0001:0001046d       muDoubleScalarFloor        000000018001146d f   libmwmathutil:libmwmathutil.dll
+ 0001:00010473       muDoubleScalarRound        0000000180011473 f   libmwmathutil:libmwmathutil.dll
+ 0001:00010479       muDoubleScalarExp          0000000180011479 f   libmwmathutil:libmwmathutil.dll
+ 0001:0001047f       muDoubleScalarSign         000000018001147f f   libmwmathutil:libmwmathutil.dll
+ 0001:00010485       muDoubleScalarRem          0000000180011485 f   libmwmathutil:libmwmathutil.dll
+ 0001:0001048b       muDoubleScalarIsNaN        000000018001148b f   libmwmathutil:libmwmathutil.dll
+ 0001:00010491       muDoubleScalarIsInf        0000000180011491 f   libmwmathutil:libmwmathutil.dll
+ 0001:00010497       covrtCreateStateflowInstanceData 0000000180011497 f   libcovrt:libcovrt.dll
+ 0001:0001049d       covrtDeleteStateflowInstanceData 000000018001149d f   libcovrt:libcovrt.dll
+ 0001:000104a3       covrtTransInitFcn          00000001800114a3 f   libcovrt:libcovrt.dll
+ 0001:000104a9       covrtStateInitFcn          00000001800114a9 f   libcovrt:libcovrt.dll
+ 0001:000104af       covrtChartInitFcn          00000001800114af f   libcovrt:libcovrt.dll
+ 0001:000104b5       covrtRelationalopUpdateFcn 00000001800114b5 f   libcovrt:libcovrt.dll
+ 0001:000104bb       covrtSaturationUpdateFcn   00000001800114bb f   libcovrt:libcovrt.dll
+ 0001:000104c1       covrtSigUpdateFcn          00000001800114c1 f   libcovrt:libcovrt.dll
+ 0001:000104c7       covrtEmlInitFcn            00000001800114c7 f   libcovrt:libcovrt.dll
+ 0001:000104cd       covrtEmlFcnInitFcn         00000001800114cd f   libcovrt:libcovrt.dll
+ 0001:000104d3       covrtEmlSaturationInitFcn  00000001800114d3 f   libcovrt:libcovrt.dll
+ 0001:000104d9       covrtEmlIfInitFcn          00000001800114d9 f   libcovrt:libcovrt.dll
+ 0001:000104df       covrtEmlRelationalInitFcn  00000001800114df f   libcovrt:libcovrt.dll
+ 0001:000104e5       covrtEmlFcnEval            00000001800114e5 f   libcovrt:libcovrt.dll
+ 0001:000104eb       covrtEmlIfEval             00000001800114eb f   libcovrt:libcovrt.dll
+ 0001:000104f4       __raise_securityfailure    00000001800114f4 f   MSVCRT:gs_report.obj
+ 0001:00010528       __report_gsfailure         0000000180011528 f   MSVCRT:gs_report.obj
+ 0001:000105fc       __report_rangecheckfailure 00000001800115fc f   MSVCRT:gs_report.obj
+ 0001:00010610       __report_securityfailure   0000000180011610 f   MSVCRT:gs_report.obj
+ 0001:000106ac       __report_securityfailureEx 00000001800116ac f   MSVCRT:gs_report.obj
+ 0001:000108a0       __GSHandlerCheck           00000001800118a0 f   MSVCRT:gshandler.obj
+ 0001:000108c0       __GSHandlerCheckCommon     00000001800118c0 f   MSVCRT:gshandler.obj
+ 0001:00010930       __security_check_cookie    0000000180011930 f   MSVCRT:amdsecgs.obj
+ 0001:00010c8c       _CRT_INIT                  0000000180011c8c f   MSVCRT:dll_dllmain.obj
+ 0001:00010c94       _DllMainCRTStartup         0000000180011c94 f   MSVCRT:dll_dllmain.obj
+ 0001:00010d40       __security_init_cookie     0000000180011d40 f   MSVCRT:gs_support.obj
+ 0001:00010dec       DllMain                    0000000180011dec f   MSVCRT:dll_dllmain_stub.obj
+ 0001:00010e10       ?__scrt_initialize_type_info@@YAXXZ 0000000180011e10 f   MSVCRT:tncleanup.obj
+ 0001:00010e20       ?__scrt_uninitialize_type_info@@YAXXZ 0000000180011e20 f   MSVCRT:tncleanup.obj
+ 0001:00010e2c       __local_stdio_scanf_options 0000000180011e2c f i MSVCRT:default_local_stdio_options.obj
+ 0001:00010e34       __scrt_initialize_default_local_stdio_options 0000000180011e34 f   MSVCRT:default_local_stdio_options.obj
+ 0001:00010e50       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 0000000180011e50 f i MSVCRT:utility.obj
+ 0001:00010eb0       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 0000000180011eb0 f i MSVCRT:utility.obj
+ 0001:00010ee8       NtCurrentTeb               0000000180011ee8 f i MSVCRT:utility.obj
+ 0001:00010ef4       __scrt_acquire_startup_lock 0000000180011ef4 f   MSVCRT:utility.obj
+ 0001:00010f30       __scrt_dllmain_after_initialize_c 0000000180011f30 f   MSVCRT:utility.obj
+ 0001:00010f64       __scrt_dllmain_before_initialize_c 0000000180011f64 f   MSVCRT:utility.obj
+ 0001:00010f7c       __scrt_dllmain_crt_thread_attach 0000000180011f7c f   MSVCRT:utility.obj
+ 0001:00010fa4       __scrt_dllmain_crt_thread_detach 0000000180011fa4 f   MSVCRT:utility.obj
+ 0001:00010fbc       __scrt_dllmain_exception_filter 0000000180011fbc f   MSVCRT:utility.obj
+ 0001:0001101c       __scrt_dllmain_uninitialize_c 000000018001201c f   MSVCRT:utility.obj
+ 0001:0001104c       __scrt_dllmain_uninitialize_critical 000000018001204c f   MSVCRT:utility.obj
+ 0001:00011060       __scrt_initialize_crt      0000000180012060 f   MSVCRT:utility.obj
+ 0001:000110ac       __scrt_initialize_onexit_tables 00000001800120ac f   MSVCRT:utility.obj
+ 0001:00011138       __scrt_is_nonwritable_in_current_image 0000000180012138 f   MSVCRT:utility.obj
+ 0001:000111d0       __scrt_release_startup_lock 00000001800121d0 f   MSVCRT:utility.obj
+ 0001:000111f4       __scrt_uninitialize_crt    00000001800121f4 f   MSVCRT:utility.obj
+ 0001:00011220       _onexit                    0000000180012220 f   MSVCRT:utility.obj
+ 0001:0001125c       at_quick_exit              000000018001225c f   MSVCRT:utility.obj
+ 0001:0001127c       atexit                     000000018001227c f   MSVCRT:utility.obj
+ 0001:00011294       __scrt_get_dyn_tls_init_callback 0000000180012294 f   MSVCRT:dyn_tls_init.obj
+ 0001:0001129c       __crt_debugger_hook        000000018001229c f   MSVCRT:utility_desktop.obj
+ 0001:000112a4       __scrt_fastfail            00000001800122a4 f   MSVCRT:utility_desktop.obj
+ 0001:000113f0       __scrt_get_show_window_mode 00000001800123f0 f   MSVCRT:utility_desktop.obj
+ 0001:0001142c       __scrt_initialize_mta      000000018001242c f   MSVCRT:utility_desktop.obj
+ 0001:00011434       __scrt_initialize_winrt    0000000180012434 f   MSVCRT:utility_desktop.obj
+ 0001:00011438       __scrt_is_managed_app      0000000180012438 f   MSVCRT:utility_desktop.obj
+ 0001:0001148c       __scrt_set_unhandled_exception_filter 000000018001248c f   MSVCRT:utility_desktop.obj
+ 0001:0001149c       __scrt_exe_initialize_mta  000000018001249c f   MSVCRT:utility_desktop.obj
+ 0001:0001149c       __scrt_stub_for_initialize_mta 000000018001249c f   MSVCRT:utility_desktop.obj
+ 0001:000114a0       __scrt_unhandled_exception_filter 00000001800124a0 f   MSVCRT:utility_desktop.obj
+ 0001:000114fc       _RTC_Initialize            00000001800124fc f   MSVCRT:initsect.obj
+ 0001:00011538       _RTC_Terminate             0000000180012538 f   MSVCRT:initsect.obj
+ 0001:00011574       _guard_check_icall_nop     0000000180012574 f i MSVCRT:guard_support.obj
+ 0001:00011578       ReadNoFence64              0000000180012578 f i MSVCRT:guard_support.obj
+ 0001:0001157c       ReadPointerNoFence         000000018001257c f i MSVCRT:guard_support.obj
+ 0001:00011580       __castguard_check_failure_debugbreak 0000000180012580 f i MSVCRT:guard_support.obj
+ 0001:0001159c       __castguard_check_failure_fastfail 000000018001259c f i MSVCRT:guard_support.obj
+ 0001:000115c0       __castguard_check_failure_nop 00000001800125c0 f i MSVCRT:guard_support.obj
+ 0001:000115c4       __castguard_check_failure_os_handled 00000001800125c4 f i MSVCRT:guard_support.obj
+ 0001:00011624       __castguard_slow_path_check_debugbreak 0000000180012624 f i MSVCRT:guard_support.obj
+ 0001:00011658       __castguard_slow_path_check_fastfail 0000000180012658 f i MSVCRT:guard_support.obj
+ 0001:00011694       __castguard_slow_path_check_nop 0000000180012694 f i MSVCRT:guard_support.obj
+ 0001:00011698       __castguard_slow_path_check_os_handled 0000000180012698 f i MSVCRT:guard_support.obj
+ 0001:0001170c       _guard_icall_checks_enforced 000000018001270c f i MSVCRT:guard_support.obj
+ 0001:00011724       _guard_rf_checks_enforced  0000000180012724 f i MSVCRT:guard_support.obj
+ 0001:00011728       __isa_available_init       0000000180012728 f   MSVCRT:cpu_disp.obj
+ 0001:000118cc       _get_startup_argv_mode     00000001800128cc f   MSVCRT:argv_mode.obj
+ 0001:000118d4       __scrt_is_ucrt_dll_in_use  00000001800128d4 f   MSVCRT:ucrt_detection.obj
+ 0001:000118e0       RtlCaptureContext          00000001800128e0 f   kernel32:KERNEL32.dll
+ 0001:000118e6       RtlLookupFunctionEntry     00000001800128e6 f   kernel32:KERNEL32.dll
+ 0001:000118ec       RtlVirtualUnwind           00000001800128ec f   kernel32:KERNEL32.dll
+ 0001:000118f2       UnhandledExceptionFilter   00000001800128f2 f   kernel32:KERNEL32.dll
+ 0001:000118f8       SetUnhandledExceptionFilter 00000001800128f8 f   kernel32:KERNEL32.dll
+ 0001:000118fe       GetCurrentProcess          00000001800128fe f   kernel32:KERNEL32.dll
+ 0001:00011904       TerminateProcess           0000000180012904 f   kernel32:KERNEL32.dll
+ 0001:0001190a       IsProcessorFeaturePresent  000000018001290a f   kernel32:KERNEL32.dll
+ 0001:00011910       QueryPerformanceCounter    0000000180012910 f   kernel32:KERNEL32.dll
+ 0001:00011916       GetCurrentProcessId        0000000180012916 f   kernel32:KERNEL32.dll
+ 0001:0001191c       GetCurrentThreadId         000000018001291c f   kernel32:KERNEL32.dll
+ 0001:00011922       GetSystemTimeAsFileTime    0000000180012922 f   kernel32:KERNEL32.dll
+ 0001:00011928       DisableThreadLibraryCalls  0000000180012928 f   kernel32:KERNEL32.dll
+ 0001:0001192e       InitializeSListHead        000000018001292e f   kernel32:KERNEL32.dll
+ 0001:00011934       IsDebuggerPresent          0000000180012934 f   kernel32:KERNEL32.dll
+ 0001:0001193a       GetStartupInfoW            000000018001293a f   kernel32:KERNEL32.dll
+ 0001:00011940       GetModuleHandleW           0000000180012940 f   kernel32:KERNEL32.dll
+ 0001:00011946       memset                     0000000180012946 f   vcruntime:VCRUNTIME140.dll
+ 0001:0001194c       memcpy                     000000018001294c f   vcruntime:VCRUNTIME140.dll
+ 0001:00011952       __C_specific_handler       0000000180012952 f   vcruntime:VCRUNTIME140.dll
+ 0001:00011958       __std_type_info_destroy_list 0000000180012958 f   vcruntime:VCRUNTIME140.dll
+ 0001:0001195e       __current_exception        000000018001295e f   vcruntime:VCRUNTIME140.dll
+ 0001:00011964       __current_exception_context 0000000180012964 f   vcruntime:VCRUNTIME140.dll
+ 0001:0001196a       strcmp                     000000018001296a f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:00011970       strcat                     0000000180012970 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:00011976       _localtime64               0000000180012976 f   ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0001:0001197c       _time64                    000000018001297c f   ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0001:00011982       __stdio_common_vsprintf    0000000180012982 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:00011988       free                       0000000180012988 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0001198e       malloc                     000000018001298e f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:00011994       strlen                     0000000180012994 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0001199a       _initterm                  000000018001299a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000119a0       _initterm_e                00000001800129a0 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000119a6       _seh_filter_dll            00000001800129a6 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000119ac       _configure_narrow_argv     00000001800129ac f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000119b2       _initialize_narrow_environment 00000001800129b2 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000119b8       _initialize_onexit_table   00000001800129b8 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000119be       _register_onexit_function  00000001800129be f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000119c4       _execute_onexit_table      00000001800129c4 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000119ca       _crt_atexit                00000001800129ca f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000119d0       _crt_at_quick_exit         00000001800129d0 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000119d6       _cexit                     00000001800129d6 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000119dc       terminate                  00000001800129dc f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000119e4       __vcrt_initialize          00000001800129e4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000119e4       __acrt_initialize          00000001800129e4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000119e4       __scrt_stub_for_acrt_initialize 00000001800129e4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000119e8       __scrt_stub_for_acrt_thread_attach 00000001800129e8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000119e8       __acrt_thread_attach       00000001800129e8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000119e8       __vcrt_thread_attach       00000001800129e8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000119ec       __acrt_thread_detach       00000001800129ec f   MSVCRT:ucrt_stubs.obj
+ 0001:000119ec       __scrt_stub_for_acrt_thread_detach 00000001800129ec f   MSVCRT:ucrt_stubs.obj
+ 0001:000119ec       __vcrt_thread_detach       00000001800129ec f   MSVCRT:ucrt_stubs.obj
+ 0001:000119f0       __scrt_stub_for_acrt_uninitialize 00000001800129f0 f   MSVCRT:ucrt_stubs.obj
+ 0001:000119f0       __vcrt_uninitialize        00000001800129f0 f   MSVCRT:ucrt_stubs.obj
+ 0001:000119f0       __acrt_uninitialize        00000001800129f0 f   MSVCRT:ucrt_stubs.obj
+ 0001:000119f4       __scrt_stub_for_acrt_uninitialize_critical 00000001800129f4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000119f4       __vcrt_uninitialize_critical 00000001800129f4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000119f4       __acrt_uninitialize_critical 00000001800129f4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000119f8       __scrt_stub_for_is_c_termination_complete 00000001800129f8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000119f8       _is_c_termination_complete 00000001800129f8 f   MSVCRT:ucrt_stubs.obj
+ 0001:00011a10       _guard_dispatch_icall_nop  0000000180012a10 f   MSVCRT:guard_dispatch.obj
+ 0001:00011a30       _guard_xfg_dispatch_icall_nop 0000000180012a30 f   MSVCRT:guard_xfg_dispatch.obj
+ 0002:00000000       __imp_DisableThreadLibraryCalls 0000000180013000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_GetCurrentThreadId   0000000180013008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_RtlCaptureContext    0000000180013010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_RtlLookupFunctionEntry 0000000180013018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_RtlVirtualUnwind     0000000180013020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_GetSystemTimeAsFileTime 0000000180013028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_InitializeSListHead  0000000180013030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_IsDebuggerPresent    0000000180013038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_GetStartupInfoW      0000000180013040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_GetModuleHandleW     0000000180013048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_QueryPerformanceCounter 0000000180013050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_IsProcessorFeaturePresent 0000000180013058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_TerminateProcess     0000000180013060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_GetCurrentProcess    0000000180013068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_SetUnhandledExceptionFilter 0000000180013070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_UnhandledExceptionFilter 0000000180013078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_GetCurrentProcessId  0000000180013080     kernel32:KERNEL32.dll
+ 0002:00000088       \177KERNEL32_NULL_THUNK_DATA 0000000180013088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp_memset               0000000180013090     vcruntime:VCRUNTIME140.dll
+ 0002:00000098       __imp_memcpy               0000000180013098     vcruntime:VCRUNTIME140.dll
+ 0002:000000a0       __imp___C_specific_handler 00000001800130a0     vcruntime:VCRUNTIME140.dll
+ 0002:000000a8       __imp___std_type_info_destroy_list 00000001800130a8     vcruntime:VCRUNTIME140.dll
+ 0002:000000b0       __imp___current_exception  00000001800130b0     vcruntime:VCRUNTIME140.dll
+ 0002:000000b8       __imp___current_exception_context 00000001800130b8     vcruntime:VCRUNTIME140.dll
+ 0002:000000c0       \177VCRUNTIME140_NULL_THUNK_DATA 00000001800130c0     vcruntime:VCRUNTIME140.dll
+ 0002:000000c8       __imp_free                 00000001800130c8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000d0       __imp_malloc               00000001800130d0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000d8       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001800130d8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000e0       __imp__configure_narrow_argv 00000001800130e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e8       __imp__seh_filter_dll      00000001800130e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f0       __imp__initialize_narrow_environment 00000001800130f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f8       __imp__initialize_onexit_table 00000001800130f8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000100       __imp__initterm_e          0000000180013100     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000108       __imp__execute_onexit_table 0000000180013108     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000110       __imp__crt_atexit          0000000180013110     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000118       __imp__crt_at_quick_exit   0000000180013118     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000120       __imp__cexit               0000000180013120     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000128       __imp__register_onexit_function 0000000180013128     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000130       __imp_terminate            0000000180013130     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000138       __imp__initterm            0000000180013138     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000140       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 0000000180013140     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000148       __imp___stdio_common_vsprintf 0000000180013148     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000150       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 0000000180013150     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000158       __imp_strlen               0000000180013158     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000160       __imp_strcat               0000000180013160     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000168       __imp_strcmp               0000000180013168     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000170       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 0000000180013170     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000178       __imp__time64              0000000180013178     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:00000180       __imp__localtime64         0000000180013180     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:00000188       \177api-ms-win-crt-time-l1-1-0_NULL_THUNK_DATA 0000000180013188     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:00000190       __imp_covrtDeleteStateflowInstanceData 0000000180013190     libcovrt:libcovrt.dll
+ 0002:00000198       __imp_covrtEmlIfEval       0000000180013198     libcovrt:libcovrt.dll
+ 0002:000001a0       __imp_covrtEmlFcnEval      00000001800131a0     libcovrt:libcovrt.dll
+ 0002:000001a8       __imp_covrtEmlRelationalInitFcn 00000001800131a8     libcovrt:libcovrt.dll
+ 0002:000001b0       __imp_covrtEmlIfInitFcn    00000001800131b0     libcovrt:libcovrt.dll
+ 0002:000001b8       __imp_covrtEmlSaturationInitFcn 00000001800131b8     libcovrt:libcovrt.dll
+ 0002:000001c0       __imp_covrtEmlFcnInitFcn   00000001800131c0     libcovrt:libcovrt.dll
+ 0002:000001c8       __imp_covrtEmlInitFcn      00000001800131c8     libcovrt:libcovrt.dll
+ 0002:000001d0       __imp_covrtSigUpdateFcn    00000001800131d0     libcovrt:libcovrt.dll
+ 0002:000001d8       __imp_covrtSaturationUpdateFcn 00000001800131d8     libcovrt:libcovrt.dll
+ 0002:000001e0       __imp_covrtRelationalopUpdateFcn 00000001800131e0     libcovrt:libcovrt.dll
+ 0002:000001e8       __imp_covrtChartInitFcn    00000001800131e8     libcovrt:libcovrt.dll
+ 0002:000001f0       __imp_covrtStateInitFcn    00000001800131f0     libcovrt:libcovrt.dll
+ 0002:000001f8       __imp_covrtTransInitFcn    00000001800131f8     libcovrt:libcovrt.dll
+ 0002:00000200       __imp_covrtCreateStateflowInstanceData 0000000180013200     libcovrt:libcovrt.dll
+ 0002:00000208       \177libcovrt_NULL_THUNK_DATA 0000000180013208     libcovrt:libcovrt.dll
+ 0002:00000210       __imp_mexCallMATLAB_800    0000000180013210     libmex:libmex.dll
+ 0002:00000218       __imp_mexLock_800          0000000180013218     libmex:libmex.dll
+ 0002:00000220       __imp_mexUnlock_800        0000000180013220     libmex:libmex.dll
+ 0002:00000228       __imp_mexIsLocked_800      0000000180013228     libmex:libmex.dll
+ 0002:00000230       __imp_mexWarnMsgTxt_800    0000000180013230     libmex:libmex.dll
+ 0002:00000238       __imp_mexErrMsgTxt_800     0000000180013238     libmex:libmex.dll
+ 0002:00000240       __imp_mexMakeArrayPersistent_800 0000000180013240     libmex:libmex.dll
+ 0002:00000248       \177libmex_NULL_THUNK_DATA 0000000180013248     libmex:libmex.dll
+ 0002:00000250       __imp_muDoubleScalarIsInf  0000000180013250     libmwmathutil:libmwmathutil.dll
+ 0002:00000258       __imp_muDoubleScalarCeil   0000000180013258     libmwmathutil:libmwmathutil.dll
+ 0002:00000260       __imp_muDoubleScalarFloor  0000000180013260     libmwmathutil:libmwmathutil.dll
+ 0002:00000268       __imp_muDoubleScalarRound  0000000180013268     libmwmathutil:libmwmathutil.dll
+ 0002:00000270       __imp_muDoubleScalarExp    0000000180013270     libmwmathutil:libmwmathutil.dll
+ 0002:00000278       __imp_muDoubleScalarSign   0000000180013278     libmwmathutil:libmwmathutil.dll
+ 0002:00000280       __imp_muDoubleScalarRem    0000000180013280     libmwmathutil:libmwmathutil.dll
+ 0002:00000288       __imp_muDoubleScalarIsNaN  0000000180013288     libmwmathutil:libmwmathutil.dll
+ 0002:00000290       \177libmwmathutil_NULL_THUNK_DATA 0000000180013290     libmwmathutil:libmwmathutil.dll
+ 0002:00000298       __imp_mxGetNaN_800         0000000180013298     libmx:libmx.dll
+ 0002:000002a0       __imp_mxGetScalar_800      00000001800132a0     libmx:libmx.dll
+ 0002:000002a8       __imp_mxGetPr_800          00000001800132a8     libmx:libmx.dll
+ 0002:000002b0       __imp_mxDestroyArray_800   00000001800132b0     libmx:libmx.dll
+ 0002:000002b8       __imp_mxCreateDoubleScalar_800 00000001800132b8     libmx:libmx.dll
+ 0002:000002c0       __imp_mxGetN_800           00000001800132c0     libmx:libmx.dll
+ 0002:000002c8       __imp_mxIsComplex_800      00000001800132c8     libmx:libmx.dll
+ 0002:000002d0       __imp_mxIsNumeric_800      00000001800132d0     libmx:libmx.dll
+ 0002:000002d8       __imp_mxGetClassID_800     00000001800132d8     libmx:libmx.dll
+ 0002:000002e0       __imp_mxGetM_800           00000001800132e0     libmx:libmx.dll
+ 0002:000002e8       __imp_mxCalloc_800         00000001800132e8     libmx:libmx.dll
+ 0002:000002f0       __imp_mxIsChar_800         00000001800132f0     libmx:libmx.dll
+ 0002:000002f8       __imp_mxCreateStructMatrix_800 00000001800132f8     libmx:libmx.dll
+ 0002:00000300       __imp_mxCreateCellMatrix_800 0000000180013300     libmx:libmx.dll
+ 0002:00000308       __imp_mxCreateString_800   0000000180013308     libmx:libmx.dll
+ 0002:00000310       __imp_mxSetField_800       0000000180013310     libmx:libmx.dll
+ 0002:00000318       __imp_mxIsEmpty_800        0000000180013318     libmx:libmx.dll
+ 0002:00000320       __imp_mxDuplicateArray_800 0000000180013320     libmx:libmx.dll
+ 0002:00000328       __imp_mxGetString_800      0000000180013328     libmx:libmx.dll
+ 0002:00000330       __imp_mxCreateDoubleMatrix_800 0000000180013330     libmx:libmx.dll
+ 0002:00000338       \177libmx_NULL_THUNK_DATA  0000000180013338     libmx:libmx.dll
+ 0002:00000340       __imp_utFree               0000000180013340     libut:libut.dll
+ 0002:00000348       __imp_utMalloc             0000000180013348     libut:libut.dll
+ 0002:00000350       \177libut_NULL_THUNK_DATA  0000000180013350     libut:libut.dll
+ 0002:00000358       __imp_sf_mex_decode        0000000180013358     sf_runtime:sf_runtime.dll
+ 0002:00000360       __imp_sf_clear_error_manager_info 0000000180013360     sf_runtime:sf_runtime.dll
+ 0002:00000368       __imp_sf_mex_error_direct_call 0000000180013368     sf_runtime:sf_runtime.dll
+ 0002:00000370       __imp_getRuntimeInstanceInfoAsVoid 0000000180013370     sf_runtime:sf_runtime.dll
+ 0002:00000378       __imp_call_sf_machine_global_method_dispatcher 0000000180013378     sf_runtime:sf_runtime.dll
+ 0002:00000380       __imp_callMdlMethodAndReportError 0000000180013380     sf_runtime:sf_runtime.dll
+ 0002:00000388       __imp_sf_get_hasSeparateUpdateOutputs 0000000180013388     sf_runtime:sf_runtime.dll
+ 0002:00000390       __imp_sf_get_ChartInfoStruct_CodeGen 0000000180013390     sf_runtime:sf_runtime.dll
+ 0002:00000398       __imp_sf_data_saturate_error 0000000180013398     sf_runtime:sf_runtime.dll
+ 0002:000003a0       __imp_ssGetOutputPortSignal_wrapper 00000001800133a0     sf_runtime:sf_runtime.dll
+ 0002:000003a8       __imp_ssGetInputPortSignal_wrapper 00000001800133a8     sf_runtime:sf_runtime.dll
+ 0002:000003b0       __imp_sf_mex_import        00000001800133b0     sf_runtime:sf_runtime.dll
+ 0002:000003b8       __imp_sf_mex_destroy       00000001800133b8     sf_runtime:sf_runtime.dll
+ 0002:000003c0       __imp_sf_mex_dup           00000001800133c0     sf_runtime:sf_runtime.dll
+ 0002:000003c8       __imp_sf_mex_assign        00000001800133c8     sf_runtime:sf_runtime.dll
+ 0002:000003d0       __imp_sf_mex_getcell       00000001800133d0     sf_runtime:sf_runtime.dll
+ 0002:000003d8       __imp_sf_mex_setcell       00000001800133d8     sf_runtime:sf_runtime.dll
+ 0002:000003e0       __imp_sf_mex_createcellmatrix 00000001800133e0     sf_runtime:sf_runtime.dll
+ 0002:000003e8       __imp_sf_mex_create        00000001800133e8     sf_runtime:sf_runtime.dll
+ 0002:000003f0       __imp_sf_mex_error_message 00000001800133f0     sf_runtime:sf_runtime.dll
+ 0002:000003f8       __imp_sf_mex_call          00000001800133f8     sf_runtime:sf_runtime.dll
+ 0002:00000400       __imp_sfListenerInitializeRuntimeVars 0000000180013400     sf_runtime:sf_runtime.dll
+ 0002:00000408       __imp_sfListenerLightTerminate 0000000180013408     sf_runtime:sf_runtime.dll
+ 0002:00000410       __imp_sfListenerCacheSimStruct 0000000180013410     sf_runtime:sf_runtime.dll
+ 0002:00000418       __imp_supportsLegacyBehaviorForPersistentVarInContinuousTime 0000000180013418     sf_runtime:sf_runtime.dll
+ 0002:00000420       __imp_sf_error_out_about_continuous_sample_time_with_persistent_vars 0000000180013420     sf_runtime:sf_runtime.dll
+ 0002:00000428       __imp_sf_set_work_widths   0000000180013428     sf_runtime:sf_runtime.dll
+ 0002:00000430       __imp_sf_warn_if_symbolic_dimension_param_changed 0000000180013430     sf_runtime:sf_runtime.dll
+ 0002:00000438       __imp_setDebuggerFlag      0000000180013438     sf_runtime:sf_runtime.dll
+ 0002:00000440       __imp_setLegacyDebuggerFlag 0000000180013440     sf_runtime:sf_runtime.dll
+ 0002:00000448       __imp_setDataBrowseFcn     0000000180013448     sf_runtime:sf_runtime.dll
+ 0002:00000450       __imp_sfDoAnimationWrapper 0000000180013450     sf_runtime:sf_runtime.dll
+ 0002:00000458       __imp_sf_get_time          0000000180013458     sf_runtime:sf_runtime.dll
+ 0002:00000460       __imp_sf_clear_rtw_identifier 0000000180013460     sf_runtime:sf_runtime.dll
+ 0002:00000468       __imp_sim_mode_is_external 0000000180013468     sf_runtime:sf_runtime.dll
+ 0002:00000470       __imp_sim_mode_is_rtw_gen  0000000180013470     sf_runtime:sf_runtime.dll
+ 0002:00000478       __imp_sf_get_chart_instance_ptr 0000000180013478     sf_runtime:sf_runtime.dll
+ 0002:00000480       __imp_sfrtGetCovrtInstance 0000000180013480     sf_runtime:sf_runtime.dll
+ 0002:00000488       __imp_sfrtGetEmlrtCtx      0000000180013488     sf_runtime:sf_runtime.dll
+ 0002:00000490       __imp_sf_free_ChartRunTimeInfo 0000000180013490     sf_runtime:sf_runtime.dll
+ 0002:00000498       __imp_sf_init_ChartRunTimeInfo 0000000180013498     sf_runtime:sf_runtime.dll
+ 0002:000004a0       __imp_sf_load_rtw_optimization_info 00000001800134a0     sf_runtime:sf_runtime.dll
+ 0002:000004a8       \177sf_runtime_NULL_THUNK_DATA 00000001800134a8     sf_runtime:sf_runtime.dll
+ 0002:000004b0       __guard_check_icall_fptr   00000001800134b0     MSVCRT:guard_support.obj
+ 0002:000004b8       __guard_xfg_check_icall_fptr 00000001800134b8     MSVCRT:guard_support.obj
+ 0002:000004c0       __guard_dispatch_icall_fptr 00000001800134c0     MSVCRT:guard_support.obj
+ 0002:000004c8       __guard_xfg_dispatch_icall_fptr 00000001800134c8     MSVCRT:guard_support.obj
+ 0002:000004d0       __guard_xfg_table_dispatch_icall_fptr 00000001800134d0     MSVCRT:guard_support.obj
+ 0002:000004d8       __xc_a                     00000001800134d8     MSVCRT:initializers.obj
+ 0002:000004e0       __xc_z                     00000001800134e0     MSVCRT:initializers.obj
+ 0002:000004e8       __xi_a                     00000001800134e8     MSVCRT:initializers.obj
+ 0002:000004f0       __xi_z                     00000001800134f0     MSVCRT:initializers.obj
+ 0002:000004f8       __xp_a                     00000001800134f8     MSVCRT:initializers.obj
+ 0002:00000500       __xp_z                     0000000180013500     MSVCRT:initializers.obj
+ 0002:00000508       __xt_a                     0000000180013508     MSVCRT:initializers.obj
+ 0002:00000510       __xt_z                     0000000180013510     MSVCRT:initializers.obj
+ 0002:00000520       __real@418784f190000000    0000000180013520     RocketSim_sfun.obj
+ 0002:00000528       __real@41b493ef54000000    0000000180013528     RocketSim_sfun.obj
+ 0002:00000530       __real@41b5d978c5000000    0000000180013530     RocketSim_sfun.obj
+ 0002:00000538       __real@41c5c0d3f4000000    0000000180013538     RocketSim_sfun.obj
+ 0002:00000540       __real@41c88023db000000    0000000180013540     RocketSim_sfun.obj
+ 0002:00000548       __real@41d07f2c15000000    0000000180013548     RocketSim_sfun.obj
+ 0002:00000550       __real@41d2fa33adc00000    0000000180013550     RocketSim_sfun.obj
+ 0002:00000558       __real@41d5c7c1b3c00000    0000000180013558     RocketSim_sfun.obj
+ 0002:00000560       __real@41d8056938400000    0000000180013560     RocketSim_sfun.obj
+ 0002:00000568       __real@41d9ac968d400000    0000000180013568     RocketSim_sfun.obj
+ 0002:00000570       __real@41e485554b000000    0000000180013570     RocketSim_sfun.obj
+ 0002:00000578       __real@41ef2fadada00000    0000000180013578     RocketSim_sfun.obj
+ 0002:00000f50       __real@0000000000000000    0000000180013f50     c4_RocketSim.obj
+ 0002:00000f58       __real@3ca0000000000000    0000000180013f58     c4_RocketSim.obj
+ 0002:00000f60       __real@3defffffffffffff    0000000180013f60     c4_RocketSim.obj
+ 0002:00000f68       __real@3e00000000200000    0000000180013f68     c4_RocketSim.obj
+ 0002:00000f70       __real@3fa70a3d70a3d70a    0000000180013f70     c4_RocketSim.obj
+ 0002:00000f78       __real@3fdccccccccccccc    0000000180013f78     c4_RocketSim.obj
+ 0002:00000f80       __real@3fdfae147ae147ae    0000000180013f80     c4_RocketSim.obj
+ 0002:00000f88       __real@3fe0000000000000    0000000180013f88     c4_RocketSim.obj
+ 0002:00000f90       __real@3fe91eb851eb851f    0000000180013f90     c4_RocketSim.obj
+ 0002:00000f98       __real@3ff0000000000000    0000000180013f98     c4_RocketSim.obj
+ 0002:00000fa0       __real@3ff47ae147ae147b    0000000180013fa0     c4_RocketSim.obj
+ 0002:00000fa8       __real@3ff921fb54442d18    0000000180013fa8     c4_RocketSim.obj
+ 0002:00000fb0       __real@4000000000000000    0000000180013fb0     c4_RocketSim.obj
+ 0002:00000fb8       __real@400921fb54442d18    0000000180013fb8     c4_RocketSim.obj
+ 0002:00000fc0       __real@4010000000000000    0000000180013fc0     c4_RocketSim.obj
+ 0002:00000fc8       __real@401d8e64b8d4ddae    0000000180013fc8     c4_RocketSim.obj
+ 0002:00000fd0       __real@4030000000000000    0000000180013fd0     c4_RocketSim.obj
+ 0002:00000fd8       __real@4034000000000000    0000000180013fd8     c4_RocketSim.obj
+ 0002:00000fe0       __real@403f000000000000    0000000180013fe0     c4_RocketSim.obj
+ 0002:00000fe8       __real@404d800000000000    0000000180013fe8     c4_RocketSim.obj
+ 0002:00000ff0       __real@404e000000000000    0000000180013ff0     c4_RocketSim.obj
+ 0002:00000ff8       __real@4052800000000000    0000000180013ff8     c4_RocketSim.obj
+ 0002:00001000       __real@4056800000000000    0000000180014000     c4_RocketSim.obj
+ 0002:00001008       __real@4059000000000000    0000000180014008     c4_RocketSim.obj
+ 0002:00001010       __real@405e000000000000    0000000180014010     c4_RocketSim.obj
+ 0002:00001018       __real@4062e00000000000    0000000180014018     c4_RocketSim.obj
+ 0002:00001020       __real@4066800000000000    0000000180014020     c4_RocketSim.obj
+ 0002:00001028       __real@4066a00000000000    0000000180014028     c4_RocketSim.obj
+ 0002:00001030       __real@406a800000000000    0000000180014030     c4_RocketSim.obj
+ 0002:00001038       __real@406c800000000000    0000000180014038     c4_RocketSim.obj
+ 0002:00001040       __real@406e600000000000    0000000180014040     c4_RocketSim.obj
+ 0002:00001048       __real@4071100000000000    0000000180014048     c4_RocketSim.obj
+ 0002:00001050       __real@4073000000000000    0000000180014050     c4_RocketSim.obj
+ 0002:00001058       __real@4074e00000000000    0000000180014058     c4_RocketSim.obj
+ 0002:00001060       __real@4076d00000000000    0000000180014060     c4_RocketSim.obj
+ 0002:00001068       __real@4078d00000000000    0000000180014068     c4_RocketSim.obj
+ 0002:00001070       __real@4079000000000000    0000000180014070     c4_RocketSim.obj
+ 0002:00001078       __real@4083880000000000    0000000180014078     c4_RocketSim.obj
+ 0002:00001080       __real@40ac200000000000    0000000180014080     c4_RocketSim.obj
+ 0002:00001088       __real@40f5180000000000    0000000180014088     c4_RocketSim.obj
+ 0002:00001090       __real@41607ac000000000    0000000180014090     c4_RocketSim.obj
+ 0002:00001098       __real@4190000000000000    0000000180014098     c4_RocketSim.obj
+ 0002:000010a0       __real@41c6e41b76800000    00000001800140a0     c4_RocketSim.obj
+ 0002:000010a8       __real@41db379341400000    00000001800140a8     c4_RocketSim.obj
+ 0002:000010b0       __real@41dc68c73b000000    00000001800140b0     c4_RocketSim.obj
+ 0002:000010b8       __real@41dfffffffc00000    00000001800140b8     c4_RocketSim.obj
+ 0002:000010c0       __real@41eb262cc2e00000    00000001800140c0     c4_RocketSim.obj
+ 0002:000010c8       __real@41f0000000000000    00000001800140c8     c4_RocketSim.obj
+ 0002:000010d0       __xmm@80000000000000008000000000000000 00000001800140d0     c4_RocketSim.obj
+ 0002:000010e0       DYNAMIC_DIMENSION_DEF      00000001800140e0     RocketSim_sfun_registry.obj
+ 0002:000010f8       __real@41602cbca0000000    00000001800140f8     RocketSim_sfun_registry.obj
+ 0002:00001100       __real@bff0000000000000    0000000180014100     RocketSim_sfun_registry.obj
+ 0002:00001108       __real@77800000            0000000180014108     half_type.obj
+ 0002:00001120       _pDefaultRawDllMain        0000000180014120     MSVCRT:dll_dllmain.obj
+ 0002:00001120       _pRawDllMain               0000000180014120     MSVCRT:dll_dllmain.obj
+ 0002:00001130       __xmm@ffffffffffffffffffffffffffffffff 0000000180014130     MSVCRT:utility.obj
+ 0002:00001160       _load_config_used          0000000180014160     MSVCRT:loadcfg.obj
+ 0002:00001300       __CastGuardVftablesStart   0000000180014300     MSVCRT:guard_support.obj
+ 0002:00001308       __CastGuardVftablesEnd     0000000180014308     MSVCRT:guard_support.obj
+ 0002:00001310       __volatile_metadata        0000000180014310     <linker-defined>
+ 0002:00001770       __rtc_iaa                  0000000180014770     MSVCRT:initsect.obj
+ 0002:00001778       __rtc_izz                  0000000180014778     MSVCRT:initsect.obj
+ 0002:00001780       __rtc_taa                  0000000180014780     MSVCRT:initsect.obj
+ 0002:00001788       __rtc_tzz                  0000000180014788     MSVCRT:initsect.obj
+ 0002:000021a8       __IMPORT_DESCRIPTOR_sf_runtime 00000001800151a8     sf_runtime:sf_runtime.dll
+ 0002:000021bc       __IMPORT_DESCRIPTOR_libmx  00000001800151bc     libmx:libmx.dll
+ 0002:000021d0       __IMPORT_DESCRIPTOR_libmex 00000001800151d0     libmex:libmex.dll
+ 0002:000021e4       __IMPORT_DESCRIPTOR_libut  00000001800151e4     libut:libut.dll
+ 0002:000021f8       __IMPORT_DESCRIPTOR_libmwmathutil 00000001800151f8     libmwmathutil:libmwmathutil.dll
+ 0002:0000220c       __IMPORT_DESCRIPTOR_libcovrt 000000018001520c     libcovrt:libcovrt.dll
+ 0002:00002220       __IMPORT_DESCRIPTOR_KERNEL32 0000000180015220     kernel32:KERNEL32.dll
+ 0002:00002234       __IMPORT_DESCRIPTOR_VCRUNTIME140 0000000180015234     vcruntime:VCRUNTIME140.dll
+ 0002:00002248       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 0000000180015248     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:0000225c       __IMPORT_DESCRIPTOR_api-ms-win-crt-time-l1-1-0 000000018001525c     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:00002270       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 0000000180015270     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00002284       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 0000000180015284     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00002298       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 0000000180015298     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000022ac       __NULL_IMPORT_DESCRIPTOR   00000001800152ac     sf_runtime:sf_runtime.dll
+ 0003:00001e60       DYNAMIC_DIMENSION          0000000180018e60     RocketSim_sfun_registry.obj
+ 0003:00004360       __security_cookie_complement 000000018001b360     MSVCRT:gs_cookie.obj
+ 0003:00004368       __security_cookie          000000018001b368     MSVCRT:gs_cookie.obj
+ 0003:00004370       _fltused                   000000018001b370     MSVCRT:fltused.obj
+ 0003:00004374       __scrt_native_dllmain_reason 000000018001b374     MSVCRT:utility.obj
+ 0003:00004378       __isa_available            000000018001b378     MSVCRT:cpu_disp.obj
+ 0003:0000437c       __isa_enabled              000000018001b37c     MSVCRT:cpu_disp.obj
+ 0003:00004380       __memcpy_nt_iters          000000018001b380     MSVCRT:cpu_disp.obj
+ 0003:00004388       __memset_nt_iters          000000018001b388     MSVCRT:cpu_disp.obj
+ 0003:00004390       __scrt_ucrt_dll_is_in_use  000000018001b390     MSVCRT:ucrt_stubs.obj
+ 0003:00004fa0       ?__type_info_root_node@@3U__type_info_node@@A 000000018001bfa0     MSVCRT:tncleanup.obj
+ 0003:00004fb0       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 000000018001bfb0     MSVCRT:default_local_stdio_options.obj
+ 0003:00004fb8       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 000000018001bfb8     MSVCRT:default_local_stdio_options.obj
+ 0003:00004fc0       __scrt_current_native_startup_state 000000018001bfc0     MSVCRT:utility.obj
+ 0003:00004fc8       __scrt_native_startup_lock 000000018001bfc8     MSVCRT:utility.obj
+ 0003:00005008       __scrt_debugger_hook_flag  000000018001c008     MSVCRT:utility_desktop.obj
+ 0003:00005010       __castguard_check_failure_os_handled_fptr 000000018001c010     MSVCRT:guard_support.obj
+ 0003:00005018       __favor                    000000018001c018     MSVCRT:cpu_disp.obj
+ 0003:00005020       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 000000018001c020     <common>
+ 0003:00005028       __dyn_tls_init_callback    000000018001c028     <common>
+
+ entry point at        0001:00010c94
+
+ Static symbols
+
+ 0000:00000000       .debug$S                   0000000180000000     RocketSim_sfun.exp
+ 0000:fffe2000       _volmd                     0000000180000000     RocketSim_sfun.obj
+ 0000:fffe2000       _volmd                     0000000180000000     RocketSim_sfun_registry.obj
+ 0000:fffe2000       _volmd                     0000000180000000     c4_RocketSim.obj
+ 0000:fffe2000       _volmd                     0000000180000000     MSVCRT:cpu_disp.obj
+ 0002:fffed000       __guard_ehcont_?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180000000     MSVCRT:dll_dllmain.obj
+ 0002:fffed000       __guard_fids_?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180000000     MSVCRT:dll_dllmain.obj
+ 0000:fffe2000       _volmd                     0000000180000000     MSVCRT:gs_report.obj
+ 0000:fffe2000       _volmd                     0000000180000000     MSVCRT:gs_report.obj
+ 0000:fffe2000       _volmd                     0000000180000000     MSVCRT:gs_report.obj
+ 0002:fffed000       __guard_fids__             0000000180000000     MSVCRT:guard_support.obj
+ 0002:fffed000       __guard_fids__             0000000180000000     MSVCRT:guard_support.obj
+ 0002:fffed000       __guard_fids__guard_icall_checks_enforced 0000000180000000     MSVCRT:guard_support.obj
+ 0000:fffe2000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:fffe2000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:fffe2000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:fffe2000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0000:fffe2000       _volmd                     0000000180000000     MSVCRT:guard_support.obj
+ 0002:fffed000       __guard_ehcont___scrt_is_nonwritable_in_current_image 0000000180000000     MSVCRT:utility.obj
+ 0000:fffe2000       _volmd                     0000000180000000     MSVCRT:utility.obj
+ 0000:fffe2000       _volmd                     0000000180000000     MSVCRT:utility.obj
+ 0000:fffe2000       _volmd                     0000000180000000     MSVCRT:utility.obj
+ 0002:fffed000       __guard_fids___scrt_set_unhandled_exception_filter 0000000180000000     MSVCRT:utility_desktop.obj
+ 0000:fffe2000       _volmd                     0000000180000000     MSVCRT:utility_desktop.obj
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libut:libut.dll
+ 0000:00000000       .debug$S                   0000000180000000     libut:libut.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:fffe200c       _volmd                     000000018000000c     RocketSim_sfun.obj
+ 0000:fffe200c       _volmd                     000000018000000c     RocketSim_sfun_registry.obj
+ 0000:fffe200c       _volmd                     000000018000000c     c4_RocketSim.obj
+ 0000:fffe2018       _volmd                     0000000180000018     RocketSim_sfun.obj
+ 0000:fffe2018       _volmd                     0000000180000018     RocketSim_sfun_registry.obj
+ 0000:fffe2018       _volmd                     0000000180000018     c4_RocketSim.obj
+ 0000:fffe2024       _volmd                     0000000180000024     RocketSim_sfun.obj
+ 0000:fffe2024       _volmd                     0000000180000024     RocketSim_sfun_registry.obj
+ 0000:fffe2024       _volmd                     0000000180000024     c4_RocketSim.obj
+ 0000:fffe2030       _volmd                     0000000180000030     RocketSim_sfun.obj
+ 0000:fffe2030       _volmd                     0000000180000030     RocketSim_sfun_registry.obj
+ 0000:fffe2030       _volmd                     0000000180000030     c4_RocketSim.obj
+ 0000:fffe203c       _volmd                     000000018000003c     RocketSim_sfun.obj
+ 0000:fffe203c       _volmd                     000000018000003c     RocketSim_sfun_registry.obj
+ 0000:fffe203c       _volmd                     000000018000003c     c4_RocketSim.obj
+ 0000:fffe2048       _volmd                     0000000180000048     RocketSim_sfun_registry.obj
+ 0000:fffe2054       _volmd                     0000000180000054     RocketSim_sfun_registry.obj
+ 0000:fffe2060       _volmd                     0000000180000060     RocketSim_sfun_registry.obj
+ 0000:fffe206c       _volmd                     000000018000006c     RocketSim_sfun_registry.obj
+ 0000:fffe2078       _volmd                     0000000180000078     RocketSim_sfun_registry.obj
+ 0000:fffe2084       _volmd                     0000000180000084     RocketSim_sfun_registry.obj
+ 0000:fffe2090       _volmd                     0000000180000090     RocketSim_sfun_registry.obj
+ 0000:fffe209c       _volmd                     000000018000009c     RocketSim_sfun_registry.obj
+ 0000:fffe20a8       _volmd                     00000001800000a8     RocketSim_sfun_registry.obj
+ 0000:fffe20b4       _volmd                     00000001800000b4     RocketSim_sfun_registry.obj
+ 0000:fffe20c0       _volmd                     00000001800000c0     RocketSim_sfun_registry.obj
+ 0001:00000f80       localtime                  0000000180001f80 f   c4_RocketSim.obj
+ 0001:00000fa0       time                       0000000180001fa0 f   c4_RocketSim.obj
+ 0001:00001190       initialize_c4_RocketSim    0000000180002190 f   c4_RocketSim.obj
+ 0001:00001220       initialize_params_c4_RocketSim 0000000180002220 f   c4_RocketSim.obj
+ 0001:00001230       enable_c4_RocketSim        0000000180002230 f   c4_RocketSim.obj
+ 0001:00001260       disable_c4_RocketSim       0000000180002260 f   c4_RocketSim.obj
+ 0001:00001290       c4_do_animation_call_c4_RocketSim 0000000180002290 f   c4_RocketSim.obj
+ 0001:000012d0       get_sim_state_c4_RocketSim 00000001800022d0 f   c4_RocketSim.obj
+ 0001:000018b0       set_sim_state_c4_RocketSim 00000001800028b0 f   c4_RocketSim.obj
+ 0001:00001bd0       sf_gateway_c4_RocketSim    0000000180002bd0 f   c4_RocketSim.obj
+ 0001:00003330       mdl_start_c4_RocketSim     0000000180004330 f   c4_RocketSim.obj
+ 0001:00003340       mdl_terminate_c4_RocketSim 0000000180004340 f   c4_RocketSim.obj
+ 0001:00003350       mdl_setup_runtime_resources_c4_RocketSim 0000000180004350 f   c4_RocketSim.obj
+ 0001:00003890       mdl_cleanup_runtime_resources_c4_RocketSim 0000000180004890 f   c4_RocketSim.obj
+ 0001:000038d0       initSimStructsc4_RocketSim 00000001800048d0 f   c4_RocketSim.obj
+ 0001:000038e0       c4_now                     00000001800048e0 f   c4_RocketSim.obj
+ 0001:00004100       c4_mod                     0000000180005100 f   c4_RocketSim.obj
+ 0001:00004250       c4_rand                    0000000180005250 f   c4_RocketSim.obj
+ 0001:000046d0       c4_emlrt_marshallIn        00000001800056d0 f   c4_RocketSim.obj
+ 0001:00004740       c4_b_emlrt_marshallIn      0000000180005740 f   c4_RocketSim.obj
+ 0001:000047d0       c4_c_emlrt_marshallIn      00000001800057d0 f   c4_RocketSim.obj
+ 0001:00004840       c4_d_emlrt_marshallIn      0000000180005840 f   c4_RocketSim.obj
+ 0001:00004900       c4_e_emlrt_marshallIn      0000000180005900 f   c4_RocketSim.obj
+ 0001:00004980       c4_f_emlrt_marshallIn      0000000180005980 f   c4_RocketSim.obj
+ 0001:00004aa0       c4_g_emlrt_marshallIn      0000000180005aa0 f   c4_RocketSim.obj
+ 0001:00004b20       c4_h_emlrt_marshallIn      0000000180005b20 f   c4_RocketSim.obj
+ 0001:00004c10       c4_i_emlrt_marshallIn      0000000180005c10 f   c4_RocketSim.obj
+ 0001:00004c80       c4_j_emlrt_marshallIn      0000000180005c80 f   c4_RocketSim.obj
+ 0001:00004d10       c4_chart_data_browse_helper 0000000180005d10 f   c4_RocketSim.obj
+ 0001:00004e30       c4_feval                   0000000180005e30 f   c4_RocketSim.obj
+ 0001:00004f70       c4_b_feval                 0000000180005f70 f   c4_RocketSim.obj
+ 0001:000050b0       c4_b_eml_rand_mt19937ar    00000001800060b0 f   c4_RocketSim.obj
+ 0001:000058b0       init_dsm_address_info      00000001800068b0 f   c4_RocketSim.obj
+ 0001:000058c0       init_simulink_io_address   00000001800068c0 f   c4_RocketSim.obj
+ 0001:00005b30       sf_get_sim_state_info_c4_RocketSim 0000000180006b30 f   c4_RocketSim.obj
+ 0001:00005bf0       sf_opaque_initialize_c4_RocketSim 0000000180006bf0 f   c4_RocketSim.obj
+ 0001:00005c20       sf_opaque_enable_c4_RocketSim 0000000180006c20 f   c4_RocketSim.obj
+ 0001:00005c40       sf_opaque_disable_c4_RocketSim 0000000180006c40 f   c4_RocketSim.obj
+ 0001:00005c60       sf_opaque_gateway_c4_RocketSim 0000000180006c60 f   c4_RocketSim.obj
+ 0001:00005c80       sf_opaque_get_sim_state_c4_RocketSim 0000000180006c80 f   c4_RocketSim.obj
+ 0001:00005cb0       sf_opaque_set_sim_state_c4_RocketSim 0000000180006cb0 f   c4_RocketSim.obj
+ 0001:00005ce0       sf_opaque_cleanup_runtime_resources_c4_RocketSim 0000000180006ce0 f   c4_RocketSim.obj
+ 0001:00005d80       sf_opaque_mdl_start_c4_RocketSim 0000000180006d80 f   c4_RocketSim.obj
+ 0001:00005da0       sf_opaque_mdl_terminate_c4_RocketSim 0000000180006da0 f   c4_RocketSim.obj
+ 0001:00005dc0       mdlProcessParameters_c4_RocketSim 0000000180006dc0 f   c4_RocketSim.obj
+ 0001:00006080       mdlSetWorkWidths_c4_RocketSim 0000000180007080 f   c4_RocketSim.obj
+ 0001:00006110       mdlRTW_c4_RocketSim        0000000180007110 f   c4_RocketSim.obj
+ 0001:00006150       mdlSetupRuntimeResources_c4_RocketSim 0000000180007150 f   c4_RocketSim.obj
+ 0001:00008b5c       $LN193                     0000000180009b5c     RocketSim_sfun_registry.obj
+ 0001:00009954       $LN22                      000000018000a954     RocketSim_sfun_registry.obj
+ 0001:0000a054       $LN26                      000000018000b054     RocketSim_sfun_registry.obj
+ 0001:0000a734       $LN24                      000000018000b734     RocketSim_sfun_registry.obj
+ 0001:0000b2ec       $LN30                      000000018000c2ec     RocketSim_sfun_registry.obj
+ 0001:0000dce0       ProcessMexSfunctionCmdLineCall 000000018000ece0 f   RocketSim_sfun_registry.obj
+ 0001:0000dff0       mdlSetWorkWidths           000000018000eff0 f   RocketSim_sfun_registry.obj
+ 0001:0000e040       mdlProcessParameters       000000018000f040 f   RocketSim_sfun_registry.obj
+ 0001:0000e070       mdl_setup_runtime_resources_processing 000000018000f070 f   RocketSim_sfun_registry.obj
+ 0001:0000e0d0       mdlSetupRuntimeResources   000000018000f0d0 f   RocketSim_sfun_registry.obj
+ 0001:0000e100       mdl_cleanup_runtime_resources_processing 000000018000f100 f   RocketSim_sfun_registry.obj
+ 0001:0000e1c0       mdlCleanupRuntimeResources 000000018000f1c0 f   RocketSim_sfun_registry.obj
+ 0001:0000e1f0       mdl_start_processing       000000018000f1f0 f   RocketSim_sfun_registry.obj
+ 0001:0000e230       mdlStart                   000000018000f230 f   RocketSim_sfun_registry.obj
+ 0001:0000e260       mdl_terminate_processing   000000018000f260 f   RocketSim_sfun_registry.obj
+ 0001:0000e2a0       mdlTerminate               000000018000f2a0 f   RocketSim_sfun_registry.obj
+ 0001:0000e2d0       mdlInitializeSizes         000000018000f2d0 f   RocketSim_sfun_registry.obj
+ 0001:0000e300       mdlInitializeSampleTimes   000000018000f300 f   RocketSim_sfun_registry.obj
+ 0001:0000e330       mdl_outputs_continuous_legacy 000000018000f330 f   RocketSim_sfun_registry.obj
+ 0001:0000e430       mdl_outputs_processing     000000018000f430 f   RocketSim_sfun_registry.obj
+ 0001:0000e550       mdl_zeroCrossings_processing 000000018000f550 f   RocketSim_sfun_registry.obj
+ 0001:0000e590       mdlZeroCrossings           000000018000f590 f   RocketSim_sfun_registry.obj
+ 0001:0000e5c0       mdl_derivatives_processing 000000018000f5c0 f   RocketSim_sfun_registry.obj
+ 0001:0000e610       mdlDerivatives             000000018000f610 f   RocketSim_sfun_registry.obj
+ 0001:0000e640       mdl_initialize_conditions_processing 000000018000f640 f   RocketSim_sfun_registry.obj
+ 0001:0000e690       mdlInitializeConditions    000000018000f690 f   RocketSim_sfun_registry.obj
+ 0001:0000e6c0       mdl_ext_mode_exec_processing 000000018000f6c0 f   RocketSim_sfun_registry.obj
+ 0001:0000e700       mdlExtModeExec             000000018000f700 f   RocketSim_sfun_registry.obj
+ 0001:0000e730       mdlRTW                     000000018000f730 f   RocketSim_sfun_registry.obj
+ 0001:0000e770       mdl_enable_processing      000000018000f770 f   RocketSim_sfun_registry.obj
+ 0001:0000e7b0       mdlEnable                  000000018000f7b0 f   RocketSim_sfun_registry.obj
+ 0001:0000e7e0       mdl_disable_processing     000000018000f7e0 f   RocketSim_sfun_registry.obj
+ 0001:0000e820       mdlDisable                 000000018000f820 f   RocketSim_sfun_registry.obj
+ 0001:0000e850       mdlOutputs                 000000018000f850 f   RocketSim_sfun_registry.obj
+ 0001:0000e880       mdl_update_processing      000000018000f880 f   RocketSim_sfun_registry.obj
+ 0001:0000e8d0       mdlUpdate                  000000018000f8d0 f   RocketSim_sfun_registry.obj
+ 0001:0000eac0       mdlGetTimeOfNextVarHit     000000018000fac0 f   RocketSim_sfun_registry.obj
+ 0001:0000eb10       _RegNumInputPortsCB        000000018000fb10 f   RocketSim_sfun_registry.obj
+ 0001:0000eb90       _RegNumOutputPortsCB       000000018000fb90 f   RocketSim_sfun_registry.obj
+ 0001:0000ec10       _CreateSimStruct           000000018000fc10 f   RocketSim_sfun_registry.obj
+ 0001:0000ee40       _ProcessMexSfunctionCmdLineCall 000000018000fe40 f   RocketSim_sfun_registry.obj
+ 0001:0000f8b0       ReportIndexOutOfBoundsError 00000001800108b0 f   RocketSim_sfun_registry.obj
+ 0001:000107bc       capture_current_context    00000001800117bc f   MSVCRT:gs_report.obj
+ 0001:0001082c       capture_previous_context   000000018001182c f   MSVCRT:gs_report.obj
+ 0001:00010920       $$000000                   0000000180011920     MSVCRT:amdsecgs.obj
+ 0001:00010950       ?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180011950 f   MSVCRT:dll_dllmain.obj
+ 0001:000109a0       ?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 00000001800119a0 f   MSVCRT:dll_dllmain.obj
+ 0001:00010ab8       ?dllmain_crt_process_detach@@YAH_N@Z 0000000180011ab8 f   MSVCRT:dll_dllmain.obj
+ 0001:00010b3c       ?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180011b3c f   MSVCRT:dll_dllmain.obj
+ 0001:00010c70       ?dllmain_raw@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180011c70 f   MSVCRT:dll_dllmain.obj
+ 0001:00010cd4       __get_entropy              0000000180011cd4 f   MSVCRT:gs_support.obj
+ 0001:00010e64       ?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z 0000000180011e64 f   MSVCRT:utility.obj
+ 0001:00010eb8       ?is_potentially_valid_image_base@@YA_NQEAX@Z 0000000180011eb8 f   MSVCRT:utility.obj
+ 0001:00011604       __castguard_compat_check   0000000180012604 f   MSVCRT:guard_support.obj
+ 0001:000116f0       __castguard_slow_path_compat_check 00000001800126f0 f   MSVCRT:guard_support.obj
+ 0001:00011a00       $$000000                   0000000180012a00     MSVCRT:guard_dispatch.obj
+ 0001:00011a20       $$000000                   0000000180012a20     MSVCRT:guard_xfg_dispatch.obj
+ 0001:00011a36       ?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180012a36 f   MSVCRT:dll_dllmain.obj
+ 0001:00011a4d       ?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180012a4d f   MSVCRT:dll_dllmain.obj
+ 0001:00011a66       ?fin$1@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180012a66 f   MSVCRT:dll_dllmain.obj
+ 0001:00011a7a       ?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 0000000180012a7a f   MSVCRT:dll_dllmain.obj
+ 0001:00011ab0       __scrt_is_nonwritable_in_current_image$filt$0 0000000180012ab0 f   MSVCRT:utility.obj
+ 0002:00000580       c4_uv                      0000000180013580     c4_RocketSim.obj
+ 0002:00000f44       ?c4_decisionTxtEndIdx@?1??mdl_setup_runtime_resources_c4_RocketSim@@9@9 0000000180013f44     c4_RocketSim.obj
+ 0002:00000f48       ?c4_decisionTxtStartIdx@?1??mdl_setup_runtime_resources_c4_RocketSim@@9@9 0000000180013f48     c4_RocketSim.obj
+ 0002:00001110       GS_ExceptionPointers       0000000180014110     MSVCRT:gs_report.obj
+ 0002:00001790       $unwind$load_RocketSim_optimization_info 0000000180014790     RocketSim_sfun.obj
+ 0002:00001798       $unwind$unload_RocketSim_optimization_info 0000000180014798     RocketSim_sfun.obj
+ 0002:000017a0       $unwind$sf_RocketSim_method_dispatcher 00000001800147a0     RocketSim_sfun.obj
+ 0002:000017a8       $unwind$sf_RocketSim_process_check_sum_call 00000001800147a8     RocketSim_sfun.obj
+ 0002:000017b8       $unwind$sf_RocketSim_get_eml_resolved_functions_info 00000001800147b8     RocketSim_sfun.obj
+ 0002:000017c8       $unwind$sf_RocketSim_third_party_uses_info 00000001800147c8     RocketSim_sfun.obj
+ 0002:000017d8       $unwind$sf_RocketSim_jit_fallback_info 00000001800147d8     RocketSim_sfun.obj
+ 0002:000017e8       $unwind$sf_RocketSim_get_post_codegen_info 00000001800147e8     RocketSim_sfun.obj
+ 0002:000017f8       $unwind$sf_RocketSim_updateBuildInfo_args_info 00000001800147f8     RocketSim_sfun.obj
+ 0002:00001808       $unwind$localtime          0000000180014808     c4_RocketSim.obj
+ 0002:00001810       $unwind$time               0000000180014810     c4_RocketSim.obj
+ 0002:00001818       $unwind$sf_c4_RocketSim_get_eml_resolved_functions_info 0000000180014818     c4_RocketSim.obj
+ 0002:00001820       $unwind$sf_c4_RocketSim_get_check_sum 0000000180014820     c4_RocketSim.obj
+ 0002:00001828       $unwind$c4_RocketSim_method_dispatcher 0000000180014828     c4_RocketSim.obj
+ 0002:00001830       $unwind$initialize_c4_RocketSim 0000000180014830     c4_RocketSim.obj
+ 0002:00001838       $unwind$enable_c4_RocketSim 0000000180014838     c4_RocketSim.obj
+ 0002:00001840       $unwind$disable_c4_RocketSim 0000000180014840     c4_RocketSim.obj
+ 0002:00001848       $unwind$c4_do_animation_call_c4_RocketSim 0000000180014848     c4_RocketSim.obj
+ 0002:00001850       $unwind$get_sim_state_c4_RocketSim 0000000180014850     c4_RocketSim.obj
+ 0002:00001858       $unwind$set_sim_state_c4_RocketSim 0000000180014858     c4_RocketSim.obj
+ 0002:00001868       $unwind$sf_gateway_c4_RocketSim 0000000180014868     c4_RocketSim.obj
+ 0002:00001870       $unwind$mdl_setup_runtime_resources_c4_RocketSim 0000000180014870     c4_RocketSim.obj
+ 0002:00001878       $unwind$mdl_cleanup_runtime_resources_c4_RocketSim 0000000180014878     c4_RocketSim.obj
+ 0002:00001880       $unwind$c4_now             0000000180014880     c4_RocketSim.obj
+ 0002:00001894       $unwind$c4_mod             0000000180014894     c4_RocketSim.obj
+ 0002:0000189c       $unwind$c4_rand            000000018001489c     c4_RocketSim.obj
+ 0002:000018a4       $unwind$c4_emlrt_marshallIn 00000001800148a4     c4_RocketSim.obj
+ 0002:000018ac       $unwind$c4_b_emlrt_marshallIn 00000001800148ac     c4_RocketSim.obj
+ 0002:000018b4       $unwind$c4_c_emlrt_marshallIn 00000001800148b4     c4_RocketSim.obj
+ 0002:000018bc       $unwind$c4_d_emlrt_marshallIn 00000001800148bc     c4_RocketSim.obj
+ 0002:000018c4       $unwind$c4_e_emlrt_marshallIn 00000001800148c4     c4_RocketSim.obj
+ 0002:000018cc       $unwind$c4_f_emlrt_marshallIn 00000001800148cc     c4_RocketSim.obj
+ 0002:000018dc       $unwind$c4_g_emlrt_marshallIn 00000001800148dc     c4_RocketSim.obj
+ 0002:000018e4       $unwind$c4_h_emlrt_marshallIn 00000001800148e4     c4_RocketSim.obj
+ 0002:000018ec       $unwind$c4_i_emlrt_marshallIn 00000001800148ec     c4_RocketSim.obj
+ 0002:000018f4       $unwind$c4_j_emlrt_marshallIn 00000001800148f4     c4_RocketSim.obj
+ 0002:000018fc       $unwind$c4_chart_data_browse_helper 00000001800148fc     c4_RocketSim.obj
+ 0002:00001904       $unwind$c4_feval           0000000180014904     c4_RocketSim.obj
+ 0002:0000190c       $unwind$c4_b_feval         000000018001490c     c4_RocketSim.obj
+ 0002:00001914       $unwind$c4_b_eml_rand_mt19937ar 0000000180014914     c4_RocketSim.obj
+ 0002:00001924       $unwind$init_simulink_io_address 0000000180014924     c4_RocketSim.obj
+ 0002:0000192c       $unwind$sf_c4_RocketSim_third_party_uses_info 000000018001492c     c4_RocketSim.obj
+ 0002:00001934       $unwind$sf_c4_RocketSim_jit_fallback_info 0000000180014934     c4_RocketSim.obj
+ 0002:00001944       $unwind$sf_c4_RocketSim_updateBuildInfo_args_info 0000000180014944     c4_RocketSim.obj
+ 0002:0000194c       $unwind$sf_get_sim_state_info_c4_RocketSim 000000018001494c     c4_RocketSim.obj
+ 0002:00001954       $unwind$sf_opaque_initialize_c4_RocketSim 0000000180014954     c4_RocketSim.obj
+ 0002:0000195c       $unwind$sf_opaque_enable_c4_RocketSim 000000018001495c     c4_RocketSim.obj
+ 0002:00001964       $unwind$sf_opaque_disable_c4_RocketSim 0000000180014964     c4_RocketSim.obj
+ 0002:0000196c       $unwind$sf_opaque_gateway_c4_RocketSim 000000018001496c     c4_RocketSim.obj
+ 0002:00001974       $unwind$sf_opaque_get_sim_state_c4_RocketSim 0000000180014974     c4_RocketSim.obj
+ 0002:0000197c       $unwind$sf_opaque_set_sim_state_c4_RocketSim 000000018001497c     c4_RocketSim.obj
+ 0002:00001984       $unwind$sf_opaque_cleanup_runtime_resources_c4_RocketSim 0000000180014984     c4_RocketSim.obj
+ 0002:0000198c       $unwind$sf_opaque_mdl_start_c4_RocketSim 000000018001498c     c4_RocketSim.obj
+ 0002:00001994       $unwind$sf_opaque_mdl_terminate_c4_RocketSim 0000000180014994     c4_RocketSim.obj
+ 0002:0000199c       $unwind$mdlProcessParameters_c4_RocketSim 000000018001499c     c4_RocketSim.obj
+ 0002:000019a4       $unwind$sf_c4_RocketSim_get_post_codegen_info 00000001800149a4     c4_RocketSim.obj
+ 0002:000019b4       $unwind$mdlSetWorkWidths_c4_RocketSim 00000001800149b4     c4_RocketSim.obj
+ 0002:000019bc       $unwind$mdlRTW_c4_RocketSim 00000001800149bc     c4_RocketSim.obj
+ 0002:000019c4       $unwind$mdlSetupRuntimeResources_c4_RocketSim 00000001800149c4     c4_RocketSim.obj
+ 0002:000019cc       $unwind$_vsnprintf_l       00000001800149cc     RocketSim_sfun_registry.obj
+ 0002:000019d4       $unwind$_vsprintf_l        00000001800149d4     RocketSim_sfun_registry.obj
+ 0002:000019dc       $unwind$sprintf            00000001800149dc     RocketSim_sfun_registry.obj
+ 0002:000019e4       $unwind$mexFunction        00000001800149e4     RocketSim_sfun_registry.obj
+ 0002:000019f4       $unwind$_ssSetInputPortDirectFeedThroughFcn 00000001800149f4     RocketSim_sfun_registry.obj
+ 0002:00001a04       $unwind$_ssSetRWorkValueFcn 0000000180014a04     RocketSim_sfun_registry.obj
+ 0002:00001a0c       $unwind$_ssGetRWorkValueFcn 0000000180014a0c     RocketSim_sfun_registry.obj
+ 0002:00001a14       $unwind$_ssSetIWorkValueFcn 0000000180014a14     RocketSim_sfun_registry.obj
+ 0002:00001a1c       $unwind$_ssGetIWorkValueFcn 0000000180014a1c     RocketSim_sfun_registry.obj
+ 0002:00001a24       $unwind$_ssSetPWorkValueFcn 0000000180014a24     RocketSim_sfun_registry.obj
+ 0002:00001a2c       $unwind$_ssGetPWorkValueFcn 0000000180014a2c     RocketSim_sfun_registry.obj
+ 0002:00001a34       $unwind$_ssGetInputPortSignalFcn 0000000180014a34     RocketSim_sfun_registry.obj
+ 0002:00001a44       $unwind$_ssGetInputPortBufferDstPortFcn 0000000180014a44     RocketSim_sfun_registry.obj
+ 0002:00001a4c       $unwind$_ssGetInputPortSignalPtrsFcn 0000000180014a4c     RocketSim_sfun_registry.obj
+ 0002:00001a5c       $unwind$ssGetParameterTuningCompliance 0000000180014a5c     RocketSim_sfun_registry.obj
+ 0002:00001a64       $unwind$ssGetDTypeIdFromMxArray 0000000180014a64     RocketSim_sfun_registry.obj
+ 0002:00001a6c       $unwind$ssWriteRTWMx2dMatParam 0000000180014a6c     RocketSim_sfun_registry.obj
+ 0002:00001a74       $unwind$ssWriteRTWMxVectParam 0000000180014a74     RocketSim_sfun_registry.obj
+ 0002:00001a7c       $unwind$ssWriteRTWParameters 0000000180014a7c     RocketSim_sfun_registry.obj
+ 0002:00001a84       $unwind$ssWriteRTWParamSettings 0000000180014a84     RocketSim_sfun_registry.obj
+ 0002:00001a8c       $unwind$ssWriteRTWStr      0000000180014a8c     RocketSim_sfun_registry.obj
+ 0002:00001a94       $unwind$ssWriteRTWWorkVect 0000000180014a94     RocketSim_sfun_registry.obj
+ 0002:00001aa8       $unwind$ssWarning          0000000180014aa8     RocketSim_sfun_registry.obj
+ 0002:00001abc       $unwind$ssWriteRTWNameValuePair 0000000180014abc     RocketSim_sfun_registry.obj
+ 0002:00001ac4       $unwind$_ssSetInputPortMatrixDimensions 0000000180014ac4     RocketSim_sfun_registry.obj
+ 0002:00001ad0       $unwind$_ssSetOutputPortMatrixDimensions 0000000180014ad0     RocketSim_sfun_registry.obj
+ 0002:00001adc       $unwind$_ssSetInputPortVectorDimension 0000000180014adc     RocketSim_sfun_registry.obj
+ 0002:00001ae8       $unwind$_ssSetOutputPortVectorDimension 0000000180014ae8     RocketSim_sfun_registry.obj
+ 0002:00001af4       $unwind$ssIsRunTimeParamTunable 0000000180014af4     RocketSim_sfun_registry.obj
+ 0002:00001afc       $unwind$ssGetSFuncBlockHandle 0000000180014afc     RocketSim_sfun_registry.obj
+ 0002:00001b04       $unwind$_ssGetCurrentInputPortWidth 0000000180014b04     RocketSim_sfun_registry.obj
+ 0002:00001b0c       $unwind$_ssGetCurrentOutputPortWidth 0000000180014b0c     RocketSim_sfun_registry.obj
+ 0002:00001b14       $unwind$_ssGetCallSystemNumFcnCallDestinations 0000000180014b14     RocketSim_sfun_registry.obj
+ 0002:00001b1c       $unwind$ssGetIsZeroCrossControlDisabled 0000000180014b1c     RocketSim_sfun_registry.obj
+ 0002:00001b24       $unwind$ssSetIsInputPortUsedForContZcSignal 0000000180014b24     RocketSim_sfun_registry.obj
+ 0002:00001b2c       $unwind$ssSetZcSignalIsZcElementDisc 0000000180014b2c     RocketSim_sfun_registry.obj
+ 0002:00001b3c       $unwind$ssSetZcSignalName  0000000180014b3c     RocketSim_sfun_registry.obj
+ 0002:00001b44       $unwind$ssSetZcSignalWidth 0000000180014b44     RocketSim_sfun_registry.obj
+ 0002:00001b4c       $unwind$ssSetZcSignalZcEventType 0000000180014b4c     RocketSim_sfun_registry.obj
+ 0002:00001b54       $unwind$ssSetZcSignalType  0000000180014b54     RocketSim_sfun_registry.obj
+ 0002:00001b5c       $unwind$ssSetZcSignalZcTol 0000000180014b5c     RocketSim_sfun_registry.obj
+ 0002:00001b64       $unwind$ssSetZcSignalNeedsEventNotification 0000000180014b64     RocketSim_sfun_registry.obj
+ 0002:00001b6c       $unwind$ssCreateAndAddZcSignalInfo 0000000180014b6c     RocketSim_sfun_registry.obj
+ 0002:00001b74       $unwind$ssCloneAndAddZcSignalInfo 0000000180014b74     RocketSim_sfun_registry.obj
+ 0002:00001b7c       $unwind$ssGetNumZcSignals  0000000180014b7c     RocketSim_sfun_registry.obj
+ 0002:00001b84       $unwind$ssGetZcSignalVector 0000000180014b84     RocketSim_sfun_registry.obj
+ 0002:00001b8c       $unwind$ssGetZcSignalName  0000000180014b8c     RocketSim_sfun_registry.obj
+ 0002:00001b94       $unwind$ssGetZcSignalWidth 0000000180014b94     RocketSim_sfun_registry.obj
+ 0002:00001b9c       $unwind$ssGetZcSignalZcEventType 0000000180014b9c     RocketSim_sfun_registry.obj
+ 0002:00001ba4       $unwind$ssGetZcSignalZcEvents 0000000180014ba4     RocketSim_sfun_registry.obj
+ 0002:00001bac       $unwind$ssGetZcSignalType  0000000180014bac     RocketSim_sfun_registry.obj
+ 0002:00001bb4       $unwind$ssGetZcSignalZcTol 0000000180014bb4     RocketSim_sfun_registry.obj
+ 0002:00001bbc       $unwind$ssGetZcSignalNeedsEventNotification 0000000180014bbc     RocketSim_sfun_registry.obj
+ 0002:00001bc4       $unwind$ssGetZcSignalIsZcElementDisc 0000000180014bc4     RocketSim_sfun_registry.obj
+ 0002:00001bd4       $unwind$ssGetIsInputPortElementContinuous 0000000180014bd4     RocketSim_sfun_registry.obj
+ 0002:00001be4       $unwind$_ssGetAbsTol       0000000180014be4     RocketSim_sfun_registry.obj
+ 0002:00001bec       $unwind$_ssSetInputPortReusableFcn 0000000180014bec     RocketSim_sfun_registry.obj
+ 0002:00001bf4       $unwind$_ssSetOutputPortReusableFcn 0000000180014bf4     RocketSim_sfun_registry.obj
+ 0002:00001bfc       $unwind$_ssSetSymbolicDimsSupport 0000000180014bfc     RocketSim_sfun_registry.obj
+ 0002:00001c04       $unwind$_ssRegisterSymbolicDimsExpr 0000000180014c04     RocketSim_sfun_registry.obj
+ 0002:00001c0c       $unwind$_ssRegisterSymbolicDims 0000000180014c0c     RocketSim_sfun_registry.obj
+ 0002:00001c14       $unwind$_ssRegisterSymbolicDimsString 0000000180014c14     RocketSim_sfun_registry.obj
+ 0002:00001c1c       $unwind$_ssRegisterSymbolicDimsIntValue 0000000180014c1c     RocketSim_sfun_registry.obj
+ 0002:00001c24       $unwind$_ssRegisterSymbolicDimsPlus 0000000180014c24     RocketSim_sfun_registry.obj
+ 0002:00001c2c       $unwind$_ssRegisterSymbolicDimsMinus 0000000180014c2c     RocketSim_sfun_registry.obj
+ 0002:00001c34       $unwind$_ssRegisterSymbolicDimsMultiply 0000000180014c34     RocketSim_sfun_registry.obj
+ 0002:00001c3c       $unwind$_ssRegisterSymbolicDimsDivide 0000000180014c3c     RocketSim_sfun_registry.obj
+ 0002:00001c44       $unwind$_ssGetNumSymbolicDims 0000000180014c44     RocketSim_sfun_registry.obj
+ 0002:00001c4c       $unwind$_ssGetSymbolicDim  0000000180014c4c     RocketSim_sfun_registry.obj
+ 0002:00001c54       $unwind$_ssSetInputPortSymbolicDimsId 0000000180014c54     RocketSim_sfun_registry.obj
+ 0002:00001c5c       $unwind$_ssGetCompInputPortSymbolicDimsId 0000000180014c5c     RocketSim_sfun_registry.obj
+ 0002:00001c64       $unwind$_ssSetCompInputPortSymbolicDimsId 0000000180014c64     RocketSim_sfun_registry.obj
+ 0002:00001c6c       $unwind$_ssSetOutputPortSymbolicDimsId 0000000180014c6c     RocketSim_sfun_registry.obj
+ 0002:00001c74       $unwind$_ssGetCompOutputPortSymbolicDimsId 0000000180014c74     RocketSim_sfun_registry.obj
+ 0002:00001c7c       $unwind$_ssSetCompOutputPortSymbolicDimsId 0000000180014c7c     RocketSim_sfun_registry.obj
+ 0002:00001c84       $unwind$_ssSetCompDWorkSymbolicDimsId 0000000180014c84     RocketSim_sfun_registry.obj
+ 0002:00001c8c       $unwind$sf_process_check_sum_call 0000000180014c8c     RocketSim_sfun_registry.obj
+ 0002:00001c94       $unwind$sf_process_get_third_party_uses_info_call 0000000180014c94     RocketSim_sfun_registry.obj
+ 0002:00001ca4       $unwind$sf_process_get_jit_fallback_info_call 0000000180014ca4     RocketSim_sfun_registry.obj
+ 0002:00001cb4       $unwind$sf_process_get_post_codegen_info_call 0000000180014cb4     RocketSim_sfun_registry.obj
+ 0002:00001cc4       $unwind$sf_process_get_updateBuildInfo_args_info_call 0000000180014cc4     RocketSim_sfun_registry.obj
+ 0002:00001cd4       $unwind$sf_process_get_eml_resolved_functions_info_call 0000000180014cd4     RocketSim_sfun_registry.obj
+ 0002:00001ce4       $unwind$sf_mex_unlock_call 0000000180014ce4     RocketSim_sfun_registry.obj
+ 0002:00001cf4       $unwind$ProcessMexSfunctionCmdLineCall 0000000180014cf4     RocketSim_sfun_registry.obj
+ 0002:00001cfc       $unwind$sf_machine_global_initializer_called 0000000180014cfc     RocketSim_sfun_registry.obj
+ 0002:00001d04       $unwind$sf_machine_global_method_dispatcher 0000000180014d04     RocketSim_sfun_registry.obj
+ 0002:00001d0c       $unwind$sf_machine_global_terminator 0000000180014d0c     RocketSim_sfun_registry.obj
+ 0002:00001d14       $unwind$sf_register_machine_exported_symbols 0000000180014d14     RocketSim_sfun_registry.obj
+ 0002:00001d1c       $unwind$sf_machine_global_initializer 0000000180014d1c     RocketSim_sfun_registry.obj
+ 0002:00001d24       $unwind$mdlGetSimState     0000000180014d24     RocketSim_sfun_registry.obj
+ 0002:00001d2c       $unwind$mdlSetSimState     0000000180014d2c     RocketSim_sfun_registry.obj
+ 0002:00001d34       $unwind$mdlSetWorkWidths   0000000180014d34     RocketSim_sfun_registry.obj
+ 0002:00001d3c       $unwind$mdlProcessParameters 0000000180014d3c     RocketSim_sfun_registry.obj
+ 0002:00001d44       $unwind$mdl_setup_runtime_resources_processing 0000000180014d44     RocketSim_sfun_registry.obj
+ 0002:00001d4c       $unwind$mdlSetupRuntimeResources 0000000180014d4c     RocketSim_sfun_registry.obj
+ 0002:00001d54       $unwind$mdl_cleanup_runtime_resources_processing 0000000180014d54     RocketSim_sfun_registry.obj
+ 0002:00001d5c       $unwind$mdlCleanupRuntimeResources 0000000180014d5c     RocketSim_sfun_registry.obj
+ 0002:00001d64       $unwind$mdl_start_processing 0000000180014d64     RocketSim_sfun_registry.obj
+ 0002:00001d6c       $unwind$mdlStart           0000000180014d6c     RocketSim_sfun_registry.obj
+ 0002:00001d74       $unwind$mdl_terminate_processing 0000000180014d74     RocketSim_sfun_registry.obj
+ 0002:00001d7c       $unwind$mdlTerminate       0000000180014d7c     RocketSim_sfun_registry.obj
+ 0002:00001d84       $unwind$mdlInitializeSizes 0000000180014d84     RocketSim_sfun_registry.obj
+ 0002:00001d8c       $unwind$mdlInitializeSampleTimes 0000000180014d8c     RocketSim_sfun_registry.obj
+ 0002:00001d94       $unwind$mdl_outputs_continuous_legacy 0000000180014d94     RocketSim_sfun_registry.obj
+ 0002:00001d9c       $unwind$mdl_outputs_processing 0000000180014d9c     RocketSim_sfun_registry.obj
+ 0002:00001da4       $unwind$mdl_zeroCrossings_processing 0000000180014da4     RocketSim_sfun_registry.obj
+ 0002:00001dac       $unwind$mdlZeroCrossings   0000000180014dac     RocketSim_sfun_registry.obj
+ 0002:00001db4       $unwind$mdl_derivatives_processing 0000000180014db4     RocketSim_sfun_registry.obj
+ 0002:00001dbc       $unwind$mdlDerivatives     0000000180014dbc     RocketSim_sfun_registry.obj
+ 0002:00001dc4       $unwind$mdl_initialize_conditions_processing 0000000180014dc4     RocketSim_sfun_registry.obj
+ 0002:00001dcc       $unwind$mdlInitializeConditions 0000000180014dcc     RocketSim_sfun_registry.obj
+ 0002:00001dd4       $unwind$mdl_ext_mode_exec_processing 0000000180014dd4     RocketSim_sfun_registry.obj
+ 0002:00001ddc       $unwind$mdlExtModeExec     0000000180014ddc     RocketSim_sfun_registry.obj
+ 0002:00001de4       $unwind$mdlRTW             0000000180014de4     RocketSim_sfun_registry.obj
+ 0002:00001dec       $unwind$mdl_enable_processing 0000000180014dec     RocketSim_sfun_registry.obj
+ 0002:00001df4       $unwind$mdlEnable          0000000180014df4     RocketSim_sfun_registry.obj
+ 0002:00001dfc       $unwind$mdl_disable_processing 0000000180014dfc     RocketSim_sfun_registry.obj
+ 0002:00001e04       $unwind$mdlDisable         0000000180014e04     RocketSim_sfun_registry.obj
+ 0002:00001e0c       $unwind$mdlOutputs         0000000180014e0c     RocketSim_sfun_registry.obj
+ 0002:00001e14       $unwind$mdl_update_processing 0000000180014e14     RocketSim_sfun_registry.obj
+ 0002:00001e1c       $unwind$mdlUpdate          0000000180014e1c     RocketSim_sfun_registry.obj
+ 0002:00001e24       $unwind$ProcessMexSfunctionEveryCall 0000000180014e24     RocketSim_sfun_registry.obj
+ 0002:00001e2c       $unwind$_RegNumInputPortsCB 0000000180014e2c     RocketSim_sfun_registry.obj
+ 0002:00001e34       $unwind$_RegNumOutputPortsCB 0000000180014e34     RocketSim_sfun_registry.obj
+ 0002:00001e3c       $unwind$_CreateSimStruct   0000000180014e3c     RocketSim_sfun_registry.obj
+ 0002:00001e44       $unwind$_ProcessMexSfunctionCmdLineCall 0000000180014e44     RocketSim_sfun_registry.obj
+ 0002:00001e54       $unwind$ReportIndexOutOfBoundsError 0000000180014e54     RocketSim_sfun_registry.obj
+ 0002:00001e64       $unwind$getBitfieldFromFloat 0000000180014e64     half_type.obj
+ 0002:00001e6c       $unwind$getFloatFromBitfield 0000000180014e6c     half_type.obj
+ 0002:00001e74       $unwind$getHalfFromBitfield 0000000180014e74     half_type.obj
+ 0002:00001e7c       $unwind$halfToFloat        0000000180014e7c     half_type.obj
+ 0002:00001e84       $unwind$halfToDouble       0000000180014e84     half_type.obj
+ 0002:00001e8c       $unwind$floatToHalf        0000000180014e8c     half_type.obj
+ 0002:00001e94       $unwind$doubleToHalf       0000000180014e94     half_type.obj
+ 0002:00001e9c       $unwind$__report_securityfailure 0000000180014e9c     MSVCRT:gs_report.obj
+ 0002:00001ea4       $unwind$__report_securityfailureEx 0000000180014ea4     MSVCRT:gs_report.obj
+ 0002:00001eac       $unwind$__report_rangecheckfailure 0000000180014eac     MSVCRT:gs_report.obj
+ 0002:00001eb4       $unwind$__report_gsfailure 0000000180014eb4     MSVCRT:gs_report.obj
+ 0002:00001ebc       $unwind$capture_current_context 0000000180014ebc     MSVCRT:gs_report.obj
+ 0002:00001ec8       $unwind$capture_previous_context 0000000180014ec8     MSVCRT:gs_report.obj
+ 0002:00001ed4       $unwind$__raise_securityfailure 0000000180014ed4     MSVCRT:gs_report.obj
+ 0002:00001edc       $unwind$__GSHandlerCheckCommon 0000000180014edc     MSVCRT:gshandler.obj
+ 0002:00001ee4       $unwind$__GSHandlerCheck   0000000180014ee4     MSVCRT:gshandler.obj
+ 0002:00001ef0       $xdatasym                  0000000180014ef0     MSVCRT:amdsecgs.obj
+ 0002:00001ef4       $unwind$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 0000000180014ef4     MSVCRT:dll_dllmain.obj
+ 0002:00001f30       $unwind$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180014f30     MSVCRT:dll_dllmain.obj
+ 0002:00001f38       $unwind$?dllmain_crt_process_detach@@YAH_N@Z 0000000180014f38     MSVCRT:dll_dllmain.obj
+ 0002:00001f8c       $unwind$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180014f8c     MSVCRT:dll_dllmain.obj
+ 0002:00001f94       $unwind$?fin$1@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180014f94     MSVCRT:dll_dllmain.obj
+ 0002:00001f9c       $unwind$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180014f9c     MSVCRT:dll_dllmain.obj
+ 0002:00001fa4       $unwind$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180014fa4     MSVCRT:dll_dllmain.obj
+ 0002:00001fcc       $unwind$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 0000000180014fcc     MSVCRT:dll_dllmain.obj
+ 0002:00001fd4       $unwind$_DllMainCRTStartup 0000000180014fd4     MSVCRT:dll_dllmain.obj
+ 0002:00001fe4       $unwind$__security_init_cookie 0000000180014fe4     MSVCRT:gs_support.obj
+ 0002:00001ff0       $unwind$__get_entropy      0000000180014ff0     MSVCRT:gs_support.obj
+ 0002:00001ff8       $unwind$DllMain            0000000180014ff8     MSVCRT:dll_dllmain_stub.obj
+ 0002:00002000       $unwind$__scrt_initialize_default_local_stdio_options 0000000180015000     MSVCRT:default_local_stdio_options.obj
+ 0002:00002008       $unwind$atexit             0000000180015008     MSVCRT:utility.obj
+ 0002:00002010       $unwind$_onexit            0000000180015010     MSVCRT:utility.obj
+ 0002:00002018       $unwind$__scrt_is_nonwritable_in_current_image 0000000180015018     MSVCRT:utility.obj
+ 0002:00002038       $unwind$__scrt_is_nonwritable_in_current_image$filt$0 0000000180015038     MSVCRT:utility.obj
+ 0002:00002040       $unwind$__scrt_acquire_startup_lock 0000000180015040     MSVCRT:utility.obj
+ 0002:00002048       $unwind$__scrt_release_startup_lock 0000000180015048     MSVCRT:utility.obj
+ 0002:00002050       $unwind$__scrt_initialize_crt 0000000180015050     MSVCRT:utility.obj
+ 0002:00002058       $unwind$__scrt_uninitialize_crt 0000000180015058     MSVCRT:utility.obj
+ 0002:00002060       $unwind$__scrt_initialize_onexit_tables 0000000180015060     MSVCRT:utility.obj
+ 0002:00002068       $unwind$__scrt_dllmain_exception_filter 0000000180015068     MSVCRT:utility.obj
+ 0002:0000207c       $unwind$__scrt_dllmain_before_initialize_c 000000018001507c     MSVCRT:utility.obj
+ 0002:00002084       $unwind$__scrt_dllmain_after_initialize_c 0000000180015084     MSVCRT:utility.obj
+ 0002:0000208c       $unwind$__scrt_dllmain_uninitialize_c 000000018001508c     MSVCRT:utility.obj
+ 0002:00002094       $unwind$__scrt_dllmain_uninitialize_critical 0000000180015094     MSVCRT:utility.obj
+ 0002:0000209c       $unwind$__scrt_dllmain_crt_thread_attach 000000018001509c     MSVCRT:utility.obj
+ 0002:000020a4       $unwind$__scrt_dllmain_crt_thread_detach 00000001800150a4     MSVCRT:utility.obj
+ 0002:000020ac       $unwind$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 00000001800150ac     MSVCRT:utility.obj
+ 0002:000020b4       $unwind$__scrt_get_show_window_mode 00000001800150b4     MSVCRT:utility_desktop.obj
+ 0002:000020bc       $unwind$__scrt_is_managed_app 00000001800150bc     MSVCRT:utility_desktop.obj
+ 0002:000020c4       $unwind$__scrt_fastfail    00000001800150c4     MSVCRT:utility_desktop.obj
+ 0002:000020d4       $unwind$__scrt_unhandled_exception_filter 00000001800150d4     MSVCRT:utility_desktop.obj
+ 0002:000020e0       $unwind$_RTC_Initialize    00000001800150e0     MSVCRT:initsect.obj
+ 0002:000020ec       $unwind$_RTC_Terminate     00000001800150ec     MSVCRT:initsect.obj
+ 0002:000020f8       $unwind$__castguard_check_failure_os_handled 00000001800150f8     MSVCRT:guard_support.obj
+ 0002:00002100       $unwind$__castguard_slow_path_check_os_handled 0000000180015100     MSVCRT:guard_support.obj
+ 0002:00002108       $unwind$__isa_available_init 0000000180015108     MSVCRT:cpu_disp.obj
+ 0002:00002118       $xdatasym                  0000000180015118     MSVCRT:guard_dispatch.obj
+ 0002:00002120       $xdatasym                  0000000180015120     MSVCRT:guard_xfg_dispatch.obj
+ 0002:00002130       .edata                     0000000180015130     RocketSim_sfun.exp
+ 0002:00002158       rgpv                       0000000180015158     RocketSim_sfun.exp
+ 0002:00002160       rgszName                   0000000180015160     RocketSim_sfun.exp
+ 0002:00002168       rgwOrd                     0000000180015168     RocketSim_sfun.exp
+ 0002:0000216c       szName                     000000018001516c     RocketSim_sfun.exp
+ 0002:00002182       $N00001                    0000000180015182     RocketSim_sfun.exp
+ 0002:0000218e       $N00002                    000000018001518e     RocketSim_sfun.exp
+ 0002:00002bda       .idata$6                   0000000180015bda     sf_runtime:sf_runtime.dll
+ 0002:00002d74       .idata$6                   0000000180015d74     libmx:libmx.dll
+ 0002:00002e08       .idata$6                   0000000180015e08     libmex:libmex.dll
+ 0002:00002e2a       .idata$6                   0000000180015e2a     libut:libut.dll
+ 0002:00002ee0       .idata$6                   0000000180015ee0     libmwmathutil:libmwmathutil.dll
+ 0002:0000305c       .idata$6                   000000018001605c     libcovrt:libcovrt.dll
+ 0002:000031f6       .idata$6                   00000001800161f6     kernel32:KERNEL32.dll
+ 0002:00003284       .idata$6                   0000000180016284     vcruntime:VCRUNTIME140.dll
+ 0002:000033ec       .idata$6                   00000001800163ec     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:0000340e       .idata$6                   000000018001640e     ucrt:api-ms-win-crt-time-l1-1-0.dll
+ 0002:0000342e       .idata$6                   000000018001642e     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:0000344e       .idata$6                   000000018001644e     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:0000346e       .idata$6                   000000018001646e     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0003:00000000       $SG25460                   0000000180017000     RocketSim_sfun.obj
+ 0003:00000018       $SG25465                   0000000180017018     RocketSim_sfun.obj
+ 0003:00000020       $SG25468                   0000000180017020     RocketSim_sfun.obj
+ 0003:00000028       $SG25473                   0000000180017028     RocketSim_sfun.obj
+ 0003:00000030       $SG25503                   0000000180017030     RocketSim_sfun.obj
+ 0003:00000050       $SG25506                   0000000180017050     RocketSim_sfun.obj
+ 0003:00000068       $SG25535                   0000000180017068     RocketSim_sfun.obj
+ 0003:00000088       $SG25538                   0000000180017088     RocketSim_sfun.obj
+ 0003:000000a0       $SG25567                   00000001800170a0     RocketSim_sfun.obj
+ 0003:000000b8       $SG25570                   00000001800170b8     RocketSim_sfun.obj
+ 0003:000000d0       $SG25600                   00000001800170d0     RocketSim_sfun.obj
+ 0003:000000e8       $SG25603                   00000001800170e8     RocketSim_sfun.obj
+ 0003:00000100       $SG25632                   0000000180017100     RocketSim_sfun.obj
+ 0003:00000120       $SG25635                   0000000180017120     RocketSim_sfun.obj
+ 0003:00000138       $SG25661                   0000000180017138     RocketSim_sfun.obj
+ 0003:00000148       $SG25662                   0000000180017148     RocketSim_sfun.obj
+ 0003:00000160       $SG25391                   0000000180017160     c4_RocketSim.obj
+ 0003:00000164       $SG25409                   0000000180017164     c4_RocketSim.obj
+ 0003:00000168       $SG25394                   0000000180017168     c4_RocketSim.obj
+ 0003:00000180       $SG25392                   0000000180017180     c4_RocketSim.obj
+ 0003:000001c4       $SG25412                   00000001800171c4     c4_RocketSim.obj
+ 0003:000001c8       $SG25397                   00000001800171c8     c4_RocketSim.obj
+ 0003:000001f0       $SG25395                   00000001800171f0     c4_RocketSim.obj
+ 0003:00000244       $SG25415                   0000000180017244     c4_RocketSim.obj
+ 0003:00000248       $SG25398                   0000000180017248     c4_RocketSim.obj
+ 0003:00000258       $SG25400                   0000000180017258     c4_RocketSim.obj
+ 0003:00000280       $SG25401                   0000000180017280     c4_RocketSim.obj
+ 0003:00000290       $SG25403                   0000000180017290     c4_RocketSim.obj
+ 0003:000002b8       $SG25404                   00000001800172b8     c4_RocketSim.obj
+ 0003:000002c8       $SG25406                   00000001800172c8     c4_RocketSim.obj
+ 0003:000002f0       $SG25407                   00000001800172f0     c4_RocketSim.obj
+ 0003:00000300       $SG25410                   0000000180017300     c4_RocketSim.obj
+ 0003:00000344       $SG25418                   0000000180017344     c4_RocketSim.obj
+ 0003:00000348       $SG25421                   0000000180017348     c4_RocketSim.obj
+ 0003:00000350       $SG25413                   0000000180017350     c4_RocketSim.obj
+ 0003:00000394       $SG25424                   0000000180017394     c4_RocketSim.obj
+ 0003:00000398       $SG25427                   0000000180017398     c4_RocketSim.obj
+ 0003:000003a0       $SG25416                   00000001800173a0     c4_RocketSim.obj
+ 0003:000003e4       $SG25430                   00000001800173e4     c4_RocketSim.obj
+ 0003:000003e8       $SG25433                   00000001800173e8     c4_RocketSim.obj
+ 0003:000003f0       $SG25419                   00000001800173f0     c4_RocketSim.obj
+ 0003:00000434       $SG25436                   0000000180017434     c4_RocketSim.obj
+ 0003:00000438       $SG25442                   0000000180017438     c4_RocketSim.obj
+ 0003:00000450       $SG25422                   0000000180017450     c4_RocketSim.obj
+ 0003:00000494       $SG25451                   0000000180017494     c4_RocketSim.obj
+ 0003:000004a0       $SG25425                   00000001800174a0     c4_RocketSim.obj
+ 0003:000004e4       $SG25460                   00000001800174e4     c4_RocketSim.obj
+ 0003:000004f0       $SG25428                   00000001800174f0     c4_RocketSim.obj
+ 0003:00000540       $SG25431                   0000000180017540     c4_RocketSim.obj
+ 0003:00000588       $SG25448                   0000000180017588     c4_RocketSim.obj
+ 0003:000005a0       $SG25434                   00000001800175a0     c4_RocketSim.obj
+ 0003:000005e8       $SG25454                   00000001800175e8     c4_RocketSim.obj
+ 0003:000005f0       $SG25437                   00000001800175f0     c4_RocketSim.obj
+ 0003:00000638       $SG25439                   0000000180017638     c4_RocketSim.obj
+ 0003:00000658       $SG25457                   0000000180017658     c4_RocketSim.obj
+ 0003:00000660       $SG25440                   0000000180017660     c4_RocketSim.obj
+ 0003:000006c8       $SG25475                   00000001800176c8     c4_RocketSim.obj
+ 0003:000006e0       $SG25443                   00000001800176e0     c4_RocketSim.obj
+ 0003:00000738       $SG25445                   0000000180017738     c4_RocketSim.obj
+ 0003:00000758       $SG25478                   0000000180017758     c4_RocketSim.obj
+ 0003:00000770       $SG25446                   0000000180017770     c4_RocketSim.obj
+ 0003:000007d8       $SG25481                   00000001800177d8     c4_RocketSim.obj
+ 0003:000007f8       $SG25484                   00000001800177f8     c4_RocketSim.obj
+ 0003:00000810       $SG25449                   0000000180017810     c4_RocketSim.obj
+ 0003:00000870       $SG25452                   0000000180017870     c4_RocketSim.obj
+ 0003:000008c8       $SG25487                   00000001800178c8     c4_RocketSim.obj
+ 0003:000008e0       $SG25455                   00000001800178e0     c4_RocketSim.obj
+ 0003:00000928       $SG25490                   0000000180017928     c4_RocketSim.obj
+ 0003:00000940       $SG25458                   0000000180017940     c4_RocketSim.obj
+ 0003:00000988       $SG25493                   0000000180017988     c4_RocketSim.obj
+ 0003:000009a0       $SG25461                   00000001800179a0     c4_RocketSim.obj
+ 0003:000009e8       $SG25463                   00000001800179e8     c4_RocketSim.obj
+ 0003:000009f8       $SG25472                   00000001800179f8     c4_RocketSim.obj
+ 0003:00000a18       $SG25496                   0000000180017a18     c4_RocketSim.obj
+ 0003:00000a30       $SG25464                   0000000180017a30     c4_RocketSim.obj
+ 0003:00000a88       $SG25466                   0000000180017a88     c4_RocketSim.obj
+ 0003:00000aa0       $SG25467                   0000000180017aa0     c4_RocketSim.obj
+ 0003:00000af8       $SG25469                   0000000180017af8     c4_RocketSim.obj
+ 0003:00000b10       $SG25470                   0000000180017b10     c4_RocketSim.obj
+ 0003:00000b70       $SG25473                   0000000180017b70     c4_RocketSim.obj
+ 0003:00000be0       $SG25476                   0000000180017be0     c4_RocketSim.obj
+ 0003:00000c40       $SG25479                   0000000180017c40     c4_RocketSim.obj
+ 0003:00000ca0       $SG25482                   0000000180017ca0     c4_RocketSim.obj
+ 0003:00000d10       $SG25485                   0000000180017d10     c4_RocketSim.obj
+ 0003:00000d70       $SG25488                   0000000180017d70     c4_RocketSim.obj
+ 0003:00000dd0       $SG25491                   0000000180017dd0     c4_RocketSim.obj
+ 0003:00000e30       $SG25494                   0000000180017e30     c4_RocketSim.obj
+ 0003:00000e90       $SG25497                   0000000180017e90     c4_RocketSim.obj
+ 0003:00000ee8       c4_emlrtMCI                0000000180017ee8     c4_RocketSim.obj
+ 0003:00000f00       c4_b_emlrtMCI              0000000180017f00     c4_RocketSim.obj
+ 0003:00000f18       c4_emlrtRSI                0000000180017f18     c4_RocketSim.obj
+ 0003:00000f30       c4_b_emlrtRSI              0000000180017f30     c4_RocketSim.obj
+ 0003:00000f48       c4_c_emlrtRSI              0000000180017f48     c4_RocketSim.obj
+ 0003:00000f60       c4_d_emlrtRSI              0000000180017f60     c4_RocketSim.obj
+ 0003:00000f78       c4_e_emlrtRSI              0000000180017f78     c4_RocketSim.obj
+ 0003:00000f90       c4_f_emlrtRSI              0000000180017f90     c4_RocketSim.obj
+ 0003:00000fa8       c4_g_emlrtRSI              0000000180017fa8     c4_RocketSim.obj
+ 0003:00000fc0       c4_h_emlrtRSI              0000000180017fc0     c4_RocketSim.obj
+ 0003:00000fd8       c4_i_emlrtRSI              0000000180017fd8     c4_RocketSim.obj
+ 0003:00000ff0       c4_j_emlrtRSI              0000000180017ff0     c4_RocketSim.obj
+ 0003:00001008       c4_k_emlrtRSI              0000000180018008     c4_RocketSim.obj
+ 0003:00001020       c4_l_emlrtRSI              0000000180018020     c4_RocketSim.obj
+ 0003:00001038       c4_m_emlrtRSI              0000000180018038     c4_RocketSim.obj
+ 0003:00001050       c4_n_emlrtRSI              0000000180018050     c4_RocketSim.obj
+ 0003:00001068       c4_o_emlrtRSI              0000000180018068     c4_RocketSim.obj
+ 0003:00001080       c4_p_emlrtRSI              0000000180018080     c4_RocketSim.obj
+ 0003:00001098       c4_q_emlrtRSI              0000000180018098     c4_RocketSim.obj
+ 0003:000010b0       c4_r_emlrtRSI              00000001800180b0     c4_RocketSim.obj
+ 0003:000010c8       c4_s_emlrtRSI              00000001800180c8     c4_RocketSim.obj
+ 0003:000010e0       c4_t_emlrtRSI              00000001800180e0     c4_RocketSim.obj
+ 0003:000010f8       c4_u_emlrtRSI              00000001800180f8     c4_RocketSim.obj
+ 0003:00001110       c4_v_emlrtRSI              0000000180018110     c4_RocketSim.obj
+ 0003:00001128       c4_w_emlrtRSI              0000000180018128     c4_RocketSim.obj
+ 0003:00001140       c4_x_emlrtRSI              0000000180018140     c4_RocketSim.obj
+ 0003:00001158       c4_y_emlrtRSI              0000000180018158     c4_RocketSim.obj
+ 0003:00001170       c4_db_emlrtRSI             0000000180018170     c4_RocketSim.obj
+ 0003:00001188       c4_eb_emlrtRSI             0000000180018188     c4_RocketSim.obj
+ 0003:000011a0       $SG25767                   00000001800181a0     c4_RocketSim.obj
+ 0003:000011a4       $SG25770                   00000001800181a4     c4_RocketSim.obj
+ 0003:000011a8       $SG25771                   00000001800181a8     c4_RocketSim.obj
+ 0003:000011ac       $SG25774                   00000001800181ac     c4_RocketSim.obj
+ 0003:000011b0       $SG25775                   00000001800181b0     c4_RocketSim.obj
+ 0003:000011b4       $SG25778                   00000001800181b4     c4_RocketSim.obj
+ 0003:000011b8       $SG25779                   00000001800181b8     c4_RocketSim.obj
+ 0003:000011bc       $SG25782                   00000001800181bc     c4_RocketSim.obj
+ 0003:000011c0       $SG25783                   00000001800181c0     c4_RocketSim.obj
+ 0003:000011c4       $SG25786                   00000001800181c4     c4_RocketSim.obj
+ 0003:000011c8       $SG25787                   00000001800181c8     c4_RocketSim.obj
+ 0003:000011cc       $SG25788                   00000001800181cc     c4_RocketSim.obj
+ 0003:000011d0       $SG25805                   00000001800181d0     c4_RocketSim.obj
+ 0003:000011d8       $SG25806                   00000001800181d8     c4_RocketSim.obj
+ 0003:000011e0       $SG25807                   00000001800181e0     c4_RocketSim.obj
+ 0003:000011e8       $SG25808                   00000001800181e8     c4_RocketSim.obj
+ 0003:000011f0       $SG25809                   00000001800181f0     c4_RocketSim.obj
+ 0003:000011f8       $SG25810                   00000001800181f8     c4_RocketSim.obj
+ 0003:00001200       $SG25811                   0000000180018200     c4_RocketSim.obj
+ 0003:00001218       ?c4_e_varargin_1@?1??sf_gateway_c4_RocketSim@@9@9 0000000180018218     c4_RocketSim.obj
+ 0003:00001250       ?c4_d_varargin_1@?1??sf_gateway_c4_RocketSim@@9@9 0000000180018250     c4_RocketSim.obj
+ 0003:00001284       ?c4_cv3@?1??sf_gateway_c4_RocketSim@@9@9 0000000180018284     c4_RocketSim.obj
+ 0003:00001288       ?c4_cv@?1??sf_gateway_c4_RocketSim@@9@9 0000000180018288     c4_RocketSim.obj
+ 0003:000012a0       ?c4_cv1@?1??sf_gateway_c4_RocketSim@@9@9 00000001800182a0     c4_RocketSim.obj
+ 0003:000012a8       ?c4_cv2@?1??sf_gateway_c4_RocketSim@@9@9 00000001800182a8     c4_RocketSim.obj
+ 0003:000012b0       ?c4_cv4@?1??sf_gateway_c4_RocketSim@@9@9 00000001800182b0     c4_RocketSim.obj
+ 0003:000012b4       $SG25978                   00000001800182b4     c4_RocketSim.obj
+ 0003:000012b8       $SG25979                   00000001800182b8     c4_RocketSim.obj
+ 0003:000012bc       $SG25985                   00000001800182bc     c4_RocketSim.obj
+ 0003:000012c0       $SG25980                   00000001800182c0     c4_RocketSim.obj
+ 0003:000012c8       $SG25981                   00000001800182c8     c4_RocketSim.obj
+ 0003:000012d4       $SG25982                   00000001800182d4     c4_RocketSim.obj
+ 0003:000012dc       $SG25986                   00000001800182dc     c4_RocketSim.obj
+ 0003:000012e0       $SG25987                   00000001800182e0     c4_RocketSim.obj
+ 0003:000012e4       $SG25988                   00000001800182e4     c4_RocketSim.obj
+ 0003:000012e8       $SG25989                   00000001800182e8     c4_RocketSim.obj
+ 0003:000012fc       $SG25990                   00000001800182fc     c4_RocketSim.obj
+ 0003:00001300       $SG25991                   0000000180018300     c4_RocketSim.obj
+ 0003:00001308       $SG25994                   0000000180018308     c4_RocketSim.obj
+ 0003:0000130c       $SG25995                   000000018001830c     c4_RocketSim.obj
+ 0003:00001310       $SG25996                   0000000180018310     c4_RocketSim.obj
+ 0003:00001314       $SG25997                   0000000180018314     c4_RocketSim.obj
+ 0003:00001318       $SG25998                   0000000180018318     c4_RocketSim.obj
+ 0003:0000132c       $SG25999                   000000018001832c     c4_RocketSim.obj
+ 0003:00001330       $SG26000                   0000000180018330     c4_RocketSim.obj
+ 0003:00001338       $SG26026                   0000000180018338     c4_RocketSim.obj
+ 0003:00001348       $SG26040                   0000000180018348     c4_RocketSim.obj
+ 0003:00001358       $SG26368                   0000000180018358     c4_RocketSim.obj
+ 0003:00001360       $SG26370                   0000000180018360     c4_RocketSim.obj
+ 0003:00001368       $SG26389                   0000000180018368     c4_RocketSim.obj
+ 0003:00001370       $SG26408                   0000000180018370     c4_RocketSim.obj
+ 0003:00001378       ?c4_cv@?1??c4_b_eml_rand_mt19937ar@@9@9 0000000180018378     c4_RocketSim.obj
+ 0003:000013a0       $SG26502                   00000001800183a0     c4_RocketSim.obj
+ 0003:000013a4       $SG26503                   00000001800183a4     c4_RocketSim.obj
+ 0003:000013a8       $SG26504                   00000001800183a8     c4_RocketSim.obj
+ 0003:000013b0       $SG26505                   00000001800183b0     c4_RocketSim.obj
+ 0003:000013bc       $SG26506                   00000001800183bc     c4_RocketSim.obj
+ 0003:000013c8       $SG26544                   00000001800183c8     c4_RocketSim.obj
+ 0003:000013d8       $SG26546                   00000001800183d8     c4_RocketSim.obj
+ 0003:000013e8       $SG26548                   00000001800183e8     c4_RocketSim.obj
+ 0003:00001400       $SG26550                   0000000180018400     c4_RocketSim.obj
+ 0003:00001418       $SG26552                   0000000180018418     c4_RocketSim.obj
+ 0003:0000142c       $SG26553                   000000018001842c     c4_RocketSim.obj
+ 0003:00001438       $SG26554                   0000000180018438     c4_RocketSim.obj
+ 0003:0000144c       $SG26557                   000000018001844c     c4_RocketSim.obj
+ 0003:00001458       $SG26570                   0000000180018458     c4_RocketSim.obj
+ 0003:00001468       $SG26572                   0000000180018468     c4_RocketSim.obj
+ 0003:00001470       $SG26573                   0000000180018470     c4_RocketSim.obj
+ 0003:000016d0       $SG26668                   00000001800186d0     c4_RocketSim.obj
+ 0003:00001720       $SG26670                   0000000180018720     c4_RocketSim.obj
+ 0003:00001770       $SG26672                   0000000180018770     c4_RocketSim.obj
+ 0003:000017c0       $SG26674                   00000001800187c0     c4_RocketSim.obj
+ 0003:00001810       $SG26676                   0000000180018810     c4_RocketSim.obj
+ 0003:00001860       $SG26678                   0000000180018860     c4_RocketSim.obj
+ 0003:000018b0       $SG26680                   00000001800188b0     c4_RocketSim.obj
+ 0003:00001900       $SG26682                   0000000180018900     c4_RocketSim.obj
+ 0003:00001950       $SG26684                   0000000180018950     c4_RocketSim.obj
+ 0003:000019a0       $SG26686                   00000001800189a0     c4_RocketSim.obj
+ 0003:000019f0       $SG26688                   00000001800189f0     c4_RocketSim.obj
+ 0003:00001a40       $SG26690                   0000000180018a40     c4_RocketSim.obj
+ 0003:00001a90       $SG26692                   0000000180018a90     c4_RocketSim.obj
+ 0003:00001ae0       $SG26694                   0000000180018ae0     c4_RocketSim.obj
+ 0003:00001b30       $SG26696                   0000000180018b30     c4_RocketSim.obj
+ 0003:00001b80       $SG26698                   0000000180018b80     c4_RocketSim.obj
+ 0003:00001bd0       $SG26700                   0000000180018bd0     c4_RocketSim.obj
+ 0003:00001c20       $SG26702                   0000000180018c20     c4_RocketSim.obj
+ 0003:00001c70       $SG26704                   0000000180018c70     c4_RocketSim.obj
+ 0003:00001cc0       $SG26706                   0000000180018cc0     c4_RocketSim.obj
+ 0003:00001d10       $SG26708                   0000000180018d10     c4_RocketSim.obj
+ 0003:00001d60       $SG26710                   0000000180018d60     c4_RocketSim.obj
+ 0003:00001d90       $SG26723                   0000000180018d90     c4_RocketSim.obj
+ 0003:00001da0       $SG26724                   0000000180018da0     c4_RocketSim.obj
+ 0003:00001db8       $SG26750                   0000000180018db8     c4_RocketSim.obj
+ 0003:00001df0       $SG26766                   0000000180018df0     c4_RocketSim.obj
+ 0003:00001e68       $SG25356                   0000000180018e68     RocketSim_sfun_registry.obj
+ 0003:00001e88       $SG25358                   0000000180018e88     RocketSim_sfun_registry.obj
+ 0003:00001e94       $SG25679                   0000000180018e94     RocketSim_sfun_registry.obj
+ 0003:00001e9c       $SG27329                   0000000180018e9c     RocketSim_sfun_registry.obj
+ 0003:00001ea0       $SG25394                   0000000180018ea0     RocketSim_sfun_registry.obj
+ 0003:00001eb8       $SG25396                   0000000180018eb8     RocketSim_sfun_registry.obj
+ 0003:00001ec4       $SG25685                   0000000180018ec4     RocketSim_sfun_registry.obj
+ 0003:00001ecc       $SG27407                   0000000180018ecc     RocketSim_sfun_registry.obj
+ 0003:00001ed0       $SG25432                   0000000180018ed0     RocketSim_sfun_registry.obj
+ 0003:00001ee8       $SG25434                   0000000180018ee8     RocketSim_sfun_registry.obj
+ 0003:00001ef4       $SG27803                   0000000180018ef4     RocketSim_sfun_registry.obj
+ 0003:00001f00       $SG25470                   0000000180018f00     RocketSim_sfun_registry.obj
+ 0003:00001f20       $SG25472                   0000000180018f20     RocketSim_sfun_registry.obj
+ 0003:00001f30       $SG25508                   0000000180018f30     RocketSim_sfun_registry.obj
+ 0003:00001f50       $SG25510                   0000000180018f50     RocketSim_sfun_registry.obj
+ 0003:00001f60       $SG25530                   0000000180018f60     RocketSim_sfun_registry.obj
+ 0003:00001f70       $SG25548                   0000000180018f70     RocketSim_sfun_registry.obj
+ 0003:00001f88       $SG25579                   0000000180018f88     RocketSim_sfun_registry.obj
+ 0003:00001f98       $SG25680                   0000000180018f98     RocketSim_sfun_registry.obj
+ 0003:00001fb0       $SG25686                   0000000180018fb0     RocketSim_sfun_registry.obj
+ 0003:00001fd0       $SG25827                   0000000180018fd0     RocketSim_sfun_registry.obj
+ 0003:00001ff8       _sfcnName                  0000000180018ff8     RocketSim_sfun_registry.obj
+ 0003:00002018       $SG26173                   0000000180019018     RocketSim_sfun_registry.obj
+ 0003:00002020       $SG25844                   0000000180019020     RocketSim_sfun_registry.obj
+ 0003:00002098       $SG26174                   0000000180019098     RocketSim_sfun_registry.obj
+ 0003:000020a0       $SG26188                   00000001800190a0     RocketSim_sfun_registry.obj
+ 0003:000020b0       $SG26378                   00000001800190b0     RocketSim_sfun_registry.obj
+ 0003:000020f0       $SG26379                   00000001800190f0     RocketSim_sfun_registry.obj
+ 0003:000020f8       $SG26380                   00000001800190f8     RocketSim_sfun_registry.obj
+ 0003:00002100       $SG26384                   0000000180019100     RocketSim_sfun_registry.obj
+ 0003:00002148       $SG26385                   0000000180019148     RocketSim_sfun_registry.obj
+ 0003:00002150       $SG26386                   0000000180019150     RocketSim_sfun_registry.obj
+ 0003:00002158       $SG26388                   0000000180019158     RocketSim_sfun_registry.obj
+ 0003:00002160       $SG26387                   0000000180019160     RocketSim_sfun_registry.obj
+ 0003:000021b4       $SG26389                   00000001800191b4     RocketSim_sfun_registry.obj
+ 0003:000021c0       $SG26411                   00000001800191c0     RocketSim_sfun_registry.obj
+ 0003:00002200       $SG26412                   0000000180019200     RocketSim_sfun_registry.obj
+ 0003:00002208       $SG26413                   0000000180019208     RocketSim_sfun_registry.obj
+ 0003:00002210       $SG26417                   0000000180019210     RocketSim_sfun_registry.obj
+ 0003:00002258       $SG26418                   0000000180019258     RocketSim_sfun_registry.obj
+ 0003:00002260       $SG26419                   0000000180019260     RocketSim_sfun_registry.obj
+ 0003:00002268       $SG26421                   0000000180019268     RocketSim_sfun_registry.obj
+ 0003:00002270       $SG26420                   0000000180019270     RocketSim_sfun_registry.obj
+ 0003:000022c4       $SG26422                   00000001800192c4     RocketSim_sfun_registry.obj
+ 0003:000022d0       $SG26437                   00000001800192d0     RocketSim_sfun_registry.obj
+ 0003:00002320       $SG26438                   0000000180019320     RocketSim_sfun_registry.obj
+ 0003:00002328       $SG26439                   0000000180019328     RocketSim_sfun_registry.obj
+ 0003:00002330       $SG26451                   0000000180019330     RocketSim_sfun_registry.obj
+ 0003:00002390       $SG26452                   0000000180019390     RocketSim_sfun_registry.obj
+ 0003:00002398       $SG26453                   0000000180019398     RocketSim_sfun_registry.obj
+ 0003:000023a0       $SG26465                   00000001800193a0     RocketSim_sfun_registry.obj
+ 0003:00002400       $SG26466                   0000000180019400     RocketSim_sfun_registry.obj
+ 0003:00002408       $SG26467                   0000000180019408     RocketSim_sfun_registry.obj
+ 0003:00002410       $SG26691                   0000000180019410     RocketSim_sfun_registry.obj
+ 0003:00002488       $SG27313                   0000000180019488     RocketSim_sfun_registry.obj
+ 0003:000024a0       $SG26694                   00000001800194a0     RocketSim_sfun_registry.obj
+ 0003:00002514       $SG27381                   0000000180019514     RocketSim_sfun_registry.obj
+ 0003:00002520       $SG26699                   0000000180019520     RocketSim_sfun_registry.obj
+ 0003:00002598       $SG27382                   0000000180019598     RocketSim_sfun_registry.obj
+ 0003:000025a0       $SG26707                   00000001800195a0     RocketSim_sfun_registry.obj
+ 0003:00002610       $SG26982                   0000000180019610     RocketSim_sfun_registry.obj
+ 0003:00002688       $SG27383                   0000000180019688     RocketSim_sfun_registry.obj
+ 0003:00002690       $SG26987                   0000000180019690     RocketSim_sfun_registry.obj
+ 0003:00002708       $SG27389                   0000000180019708     RocketSim_sfun_registry.obj
+ 0003:00002710       $SG27326                   0000000180019710     RocketSim_sfun_registry.obj
+ 0003:00002788       $SG27392                   0000000180019788     RocketSim_sfun_registry.obj
+ 0003:00002790       $SG27384                   0000000180019790     RocketSim_sfun_registry.obj
+ 0003:00002808       $SG27395                   0000000180019808     RocketSim_sfun_registry.obj
+ 0003:00002810       $SG27386                   0000000180019810     RocketSim_sfun_registry.obj
+ 0003:00002890       $SG27396                   0000000180019890     RocketSim_sfun_registry.obj
+ 0003:00002910       $SG27397                   0000000180019910     RocketSim_sfun_registry.obj
+ 0003:00002920       $SG27399                   0000000180019920     RocketSim_sfun_registry.obj
+ 0003:0000292c       $SG27401                   000000018001992c     RocketSim_sfun_registry.obj
+ 0003:00002934       $SG27403                   0000000180019934     RocketSim_sfun_registry.obj
+ 0003:00002940       $SG27405                   0000000180019940     RocketSim_sfun_registry.obj
+ 0003:00002950       $SG27410                   0000000180019950     RocketSim_sfun_registry.obj
+ 0003:00002a38       $SG27515                   0000000180019a38     RocketSim_sfun_registry.obj
+ 0003:00002a68       $SG27516                   0000000180019a68     RocketSim_sfun_registry.obj
+ 0003:00002a70       $SG27517                   0000000180019a70     RocketSim_sfun_registry.obj
+ 0003:00002a78       $SG27519                   0000000180019a78     RocketSim_sfun_registry.obj
+ 0003:00002ab0       $SG27520                   0000000180019ab0     RocketSim_sfun_registry.obj
+ 0003:00002ab8       $SG27521                   0000000180019ab8     RocketSim_sfun_registry.obj
+ 0003:00002ac0       $SG27524                   0000000180019ac0     RocketSim_sfun_registry.obj
+ 0003:00002af8       $SG27525                   0000000180019af8     RocketSim_sfun_registry.obj
+ 0003:00002b00       $SG27526                   0000000180019b00     RocketSim_sfun_registry.obj
+ 0003:00002b08       $SG27528                   0000000180019b08     RocketSim_sfun_registry.obj
+ 0003:00002b40       $SG27529                   0000000180019b40     RocketSim_sfun_registry.obj
+ 0003:00002b48       $SG27530                   0000000180019b48     RocketSim_sfun_registry.obj
+ 0003:00002b50       $SG27532                   0000000180019b50     RocketSim_sfun_registry.obj
+ 0003:00002b88       $SG27533                   0000000180019b88     RocketSim_sfun_registry.obj
+ 0003:00002b90       $SG27534                   0000000180019b90     RocketSim_sfun_registry.obj
+ 0003:00002b98       $SG27537                   0000000180019b98     RocketSim_sfun_registry.obj
+ 0003:00002ba0       $SG27539                   0000000180019ba0     RocketSim_sfun_registry.obj
+ 0003:00002bb8       $SG27540                   0000000180019bb8     RocketSim_sfun_registry.obj
+ 0003:00002bf0       $SG27541                   0000000180019bf0     RocketSim_sfun_registry.obj
+ 0003:00002bf8       $SG27542                   0000000180019bf8     RocketSim_sfun_registry.obj
+ 0003:00002c00       $SG27711                   0000000180019c00     RocketSim_sfun_registry.obj
+ 0003:00002c20       $SG27712                   0000000180019c20     RocketSim_sfun_registry.obj
+ 0003:00002cb0       $SG27716                   0000000180019cb0     RocketSim_sfun_registry.obj
+ 0003:00002cc8       $SG27721                   0000000180019cc8     RocketSim_sfun_registry.obj
+ 0003:00002ce0       $SG27717                   0000000180019ce0     RocketSim_sfun_registry.obj
+ 0003:00002d70       $SG27722                   0000000180019d70     RocketSim_sfun_registry.obj
+ 0003:00002e00       $SG27726                   0000000180019e00     RocketSim_sfun_registry.obj
+ 0003:00002e20       $SG27727                   0000000180019e20     RocketSim_sfun_registry.obj
+ 0003:00002eb0       $SG27731                   0000000180019eb0     RocketSim_sfun_registry.obj
+ 0003:00002ed0       $SG27732                   0000000180019ed0     RocketSim_sfun_registry.obj
+ 0003:00002f60       $SG27736                   0000000180019f60     RocketSim_sfun_registry.obj
+ 0003:00002f80       $SG27737                   0000000180019f80     RocketSim_sfun_registry.obj
+ 0003:00003010       $SG27741                   000000018001a010     RocketSim_sfun_registry.obj
+ 0003:00003038       $SG27746                   000000018001a038     RocketSim_sfun_registry.obj
+ 0003:00003060       $SG27742                   000000018001a060     RocketSim_sfun_registry.obj
+ 0003:000030f0       $SG27747                   000000018001a0f0     RocketSim_sfun_registry.obj
+ 0003:00003180       $SG27751                   000000018001a180     RocketSim_sfun_registry.obj
+ 0003:000031a0       $SG27752                   000000018001a1a0     RocketSim_sfun_registry.obj
+ 0003:00003230       $SG27756                   000000018001a230     RocketSim_sfun_registry.obj
+ 0003:00003250       $SG27757                   000000018001a250     RocketSim_sfun_registry.obj
+ 0003:000032e0       $SG27761                   000000018001a2e0     RocketSim_sfun_registry.obj
+ 0003:000032f8       $SG27797                   000000018001a2f8     RocketSim_sfun_registry.obj
+ 0003:00003310       $SG27762                   000000018001a310     RocketSim_sfun_registry.obj
+ 0003:000033a0       $SG27766                   000000018001a3a0     RocketSim_sfun_registry.obj
+ 0003:000033c0       $SG27767                   000000018001a3c0     RocketSim_sfun_registry.obj
+ 0003:00003450       $SG27771                   000000018001a450     RocketSim_sfun_registry.obj
+ 0003:00003470       $SG27772                   000000018001a470     RocketSim_sfun_registry.obj
+ 0003:00003500       $SG27776                   000000018001a500     RocketSim_sfun_registry.obj
+ 0003:00003520       $SG27777                   000000018001a520     RocketSim_sfun_registry.obj
+ 0003:000035b0       $SG27781                   000000018001a5b0     RocketSim_sfun_registry.obj
+ 0003:000035d0       $SG27782                   000000018001a5d0     RocketSim_sfun_registry.obj
+ 0003:00003660       $SG27786                   000000018001a660     RocketSim_sfun_registry.obj
+ 0003:00003680       $SG27787                   000000018001a680     RocketSim_sfun_registry.obj
+ 0003:00003710       $SG27791                   000000018001a710     RocketSim_sfun_registry.obj
+ 0003:00003730       $SG27792                   000000018001a730     RocketSim_sfun_registry.obj
+ 0003:000037c0       $SG27798                   000000018001a7c0     RocketSim_sfun_registry.obj
+ 0003:00003850       $SG27804                   000000018001a850     RocketSim_sfun_registry.obj
+ 0003:000038e0       $SG27808                   000000018001a8e0     RocketSim_sfun_registry.obj
+ 0003:000038f8       $SG27838                   000000018001a8f8     RocketSim_sfun_registry.obj
+ 0003:00003910       $SG27809                   000000018001a910     RocketSim_sfun_registry.obj
+ 0003:000039a0       $SG27813                   000000018001a9a0     RocketSim_sfun_registry.obj
+ 0003:000039b0       $SG27814                   000000018001a9b0     RocketSim_sfun_registry.obj
+ 0003:00003a40       $SG27818                   000000018001aa40     RocketSim_sfun_registry.obj
+ 0003:00003a60       $SG27819                   000000018001aa60     RocketSim_sfun_registry.obj
+ 0003:00003af0       $SG27823                   000000018001aaf0     RocketSim_sfun_registry.obj
+ 0003:00003b10       $SG27824                   000000018001ab10     RocketSim_sfun_registry.obj
+ 0003:00003ba0       $SG27828                   000000018001aba0     RocketSim_sfun_registry.obj
+ 0003:00003bb0       $SG27829                   000000018001abb0     RocketSim_sfun_registry.obj
+ 0003:00003c40       $SG27833                   000000018001ac40     RocketSim_sfun_registry.obj
+ 0003:00003c50       $SG27834                   000000018001ac50     RocketSim_sfun_registry.obj
+ 0003:00003ce0       $SG27839                   000000018001ace0     RocketSim_sfun_registry.obj
+ 0003:00003d70       $SG27843                   000000018001ad70     RocketSim_sfun_registry.obj
+ 0003:00003d88       $SG27848                   000000018001ad88     RocketSim_sfun_registry.obj
+ 0003:00003d98       $SG27922                   000000018001ad98     RocketSim_sfun_registry.obj
+ 0003:00003db0       $SG27844                   000000018001adb0     RocketSim_sfun_registry.obj
+ 0003:00003e40       $SG27849                   000000018001ae40     RocketSim_sfun_registry.obj
+ 0003:00003ed0       $SG27857                   000000018001aed0     RocketSim_sfun_registry.obj
+ 0003:00003ee0       $SG27858                   000000018001aee0     RocketSim_sfun_registry.obj
+ 0003:00003f70       $SG27864                   000000018001af70     RocketSim_sfun_registry.obj
+ 0003:00003f80       $SG27865                   000000018001af80     RocketSim_sfun_registry.obj
+ 0003:00004010       $SG27869                   000000018001b010     RocketSim_sfun_registry.obj
+ 0003:00004020       $SG27870                   000000018001b020     RocketSim_sfun_registry.obj
+ 0003:000040b0       $SG27875                   000000018001b0b0     RocketSim_sfun_registry.obj
+ 0003:000040c0       $SG27876                   000000018001b0c0     RocketSim_sfun_registry.obj
+ 0003:00004150       $SG27880                   000000018001b150     RocketSim_sfun_registry.obj
+ 0003:000041d0       $SG27910                   000000018001b1d0     RocketSim_sfun_registry.obj
+ 0003:000042e8       $SG27932                   000000018001b2e8     RocketSim_sfun_registry.obj
+ 0003:000042f8       $SG27944                   000000018001b2f8     RocketSim_sfun_registry.obj
+ 0003:00004308       $SG27954                   000000018001b308     RocketSim_sfun_registry.obj
+ 0003:00004318       $SG27966                   000000018001b318     RocketSim_sfun_registry.obj
+ 0003:00004328       $SG27976                   000000018001b328     RocketSim_sfun_registry.obj
+ 0003:00004338       $SG27986                   000000018001b338     RocketSim_sfun_registry.obj
+ 0003:000043a0       sRtwOptimizationInfoStruct 000000018001b3a0     RocketSim_sfun.obj
+ 0003:000043a8       sOptimizationInfoFlags     000000018001b3a8     RocketSim_sfun.obj
+ 0003:000043b0       _sfTime_                   000000018001b3b0     c4_RocketSim.obj
+ 0003:000043b8       $SG26025                   000000018001b3b8     c4_RocketSim.obj
+ 0003:000043b9       $SG26555                   000000018001b3b9     c4_RocketSim.obj
+ 0003:000043ba       $SG26556                   000000018001b3ba     c4_RocketSim.obj
+ 0003:000043bb       $SG26712                   000000018001b3bb     c4_RocketSim.obj
+ 0003:000043c0       ?newstr@?1??sf_c4_RocketSim_get_post_codegen_info@@9@9 000000018001b3c0     c4_RocketSim.obj
+ 0003:00004a18       sfGlobalMdlStartCallCounts 000000018001ba18     RocketSim_sfun_registry.obj
+ 0003:00004a1c       $SG27377                   000000018001ba1c     RocketSim_sfun_registry.obj
+ 0003:00004a20       GS_ExceptionRecord         000000018001ba20     MSVCRT:gs_report.obj
+ 0003:00004ac0       GS_ContextRecord           000000018001bac0     MSVCRT:gs_report.obj
+ 0003:00004f90       ?__proc_attached@@3HA      000000018001bf90     MSVCRT:dll_dllmain.obj
+ 0003:00004fd0       ?is_initialized_as_dll@@3_NA 000000018001bfd0     MSVCRT:utility.obj
+ 0003:00004fd1       ?module_local_atexit_table_initialized@@3_NA 000000018001bfd1     MSVCRT:utility.obj
+ 0003:00004fd8       ?module_local_atexit_table@@3U_onexit_table_t@@A 000000018001bfd8     MSVCRT:utility.obj
+ 0003:00004ff0       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 000000018001bff0     MSVCRT:utility.obj
